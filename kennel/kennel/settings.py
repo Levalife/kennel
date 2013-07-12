@@ -56,19 +56,20 @@ USE_TZ = True
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/var/www/example.com/media/"
 MEDIA_ROOT = ''
-'C:/Python27/myproject/djcode/working_directory/kennel_venv/kennel/images'
-'C:/Python27/myproject/djcode/working_directory/kennel_venv/kennel/news/images'
+'/kennel/media'
+#'C:/Python27/myproject/djcode/working_directory/kennel_venv/kennel/news/media'
+#C:/Python27/myproject/djcode/working_directory/kennel_venv/kennel/photogallery/media'
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://example.com/media/", "http://media.example.com/"
 MEDIA_URL = ''
-'madia/'
+'/media/'
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/var/www/example.com/static/"
 STATIC_ROOT = ''
-
+'/kennel/static/'
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
 STATIC_URL = '/static/'
@@ -132,6 +133,8 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
     'south',
     'news',
+    'photogallery',
+    'sorl.thumbnail',
 )
 
 # A sample logging configuration. The only tangible logging
