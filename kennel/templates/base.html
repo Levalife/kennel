@@ -1,8 +1,21 @@
 <html>
-<head><title>{% block title %}{% endblock %}
+<head><title>{% block title %}{% endblock %}</title>
+	<link rel='stylesheet' href='{{ STATIC_URL }}css/prettyPhoto.css' type='text/css' media='screen' charset='utf-8' />
+	<script src="{{ STATIC_URL }}js/jquery-1.6.1.min.js" type='text/javascript' charset="utf-8"></script>
+	<script src="{{ STATIC_URL }}js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 {% block content %}
 {% endblock %}
+{% block text %}
+{% endblock %}
+{% block script %}
+{% endblock %}
+
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+    	$("a[rel^='prettyPhoto']").prettyPhoto();
+	});
+</script>
 </body>	
 </html>

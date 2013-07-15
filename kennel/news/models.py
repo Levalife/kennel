@@ -9,5 +9,7 @@ class News(models.Model):
 	body = models.CharField(max_length=5000)
 	pub_date = models.DateTimeField(default = datetime.datetime.now())
 
+	class Meta:
+		verbose_name_plural = 'News'
 	def __unicode__(self):
 		return self.title

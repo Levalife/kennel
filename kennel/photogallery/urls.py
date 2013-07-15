@@ -5,7 +5,7 @@ from photogallery.models import Album, Photo
 urlpatterns = patterns('',
 	url(r'^$', ListView.as_view(
 		model=Album,
-		context_object_name='album',
+		context_object_name='my_album',
 		template_name='photogallery/album.html'),
 		name='gallery'
 	),
