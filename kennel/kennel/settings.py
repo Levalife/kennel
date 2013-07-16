@@ -141,6 +141,7 @@ INSTALLED_APPS = (
     'sorl.thumbnail',
     'dogs',
     'puppies',
+    'offsprings',
 )
 
 # A sample logging configuration. The only tangible logging

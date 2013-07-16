@@ -14,14 +14,14 @@ class Dog(models.Model):
 	breeder = models.CharField(max_length=80, blank=True)
 	photo = models.ImageField(upload_to='media', blank=True)
 	sex = models.ForeignKey(Gender)
-	birthday = models.DateField(blank=True)
+	birthday = models.DateField()
 	pedigree = models.URLField(max_length=150, blank=True)
 	hd = models.CharField(max_length = 40, blank=True) 
 	mdr1 = models.CharField(max_length = 40, blank=True)
 	dm = models.CharField(max_length=40, blank=True)
-	titles = models.CharField(max_length=400, blank=True)
+	titles = models.TextField(max_length=400, blank=True)
 	training = models.CharField(max_length=80, blank=True)
-	about_dog = models.CharField(max_length=400, blank=True)
+	about_dog = models.TextField(max_length=400, blank=True)
 	gallery = models.ForeignKey(Album)
 
 	def __unicode__(self):
