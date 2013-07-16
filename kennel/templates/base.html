@@ -3,6 +3,8 @@
 	<link rel='stylesheet' href='{{ STATIC_URL }}css/prettyPhoto.css' type='text/css' media='screen' charset='utf-8' />
 	<script src="{{ STATIC_URL }}js/jquery-1.6.1.min.js" type='text/javascript' charset="utf-8"></script>
 	<script src="{{ STATIC_URL }}js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	<a href="{% url 'home' %}">Home</a>
+	<a href="{% url 'gallery:gallery' %}">Gallery</a>
 </head>
 <body>
 {% block content %}

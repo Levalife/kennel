@@ -9,7 +9,7 @@ admin.autodiscover()
 from django.conf.urls import *
 from django.conf import settings
 
-
+from views import home
 
 urlpatterns = patterns('',
     # Examples:
@@ -20,14 +20,17 @@ urlpatterns = patterns('',
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
+
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^gallery/', include('photogallery.urls')),
+    url(r'^$', home, name='home'),
+    url(r'^gallery/', include('photogallery.urls', namespace='gallery')),
+    url(r'^dogs/', include('dogs.urls', namespace='dogs')),
     
 )
 
 
 urlpatterns += patterns('',
- url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
+ url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT, 'show_indexes': True}),
 )
 
 

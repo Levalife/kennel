@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+{% block content %}
+
+
+
+{% for n in news %}
+	{% load staticfiles %}
+	<p>{{ n.title }}</p>
+	
+	<p><a href='{{ MEDIA_URL}}{{n.photo}}' rel="prettyPhoto[pp_gal]"><img src='{{ MEDIA_URL}}{{n.photo}}' width=200 heigth=200></a></p>
+	<p>{{ n.body }}</p>
+	<p>{{ n.pub_date }}</p>
+{% endfor %}
+
+{% endblock %}
