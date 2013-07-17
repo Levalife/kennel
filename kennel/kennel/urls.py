@@ -1,4 +1,5 @@
 from django.conf.urls import patterns, include, url
+from django.views.generic import TemplateView
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
@@ -27,7 +28,9 @@ urlpatterns = patterns('',
     url(r'^dogs/', include('dogs.urls', namespace='dogs')),
     url(r'^puppies/', include('puppies.urls', namespace='puppies')),
     url(r'^offsprings/', include('offsprings.urls', namespace='offsprings')),
-    
+    url(r'^history/$', TemplateView.as_view(template_name='history.html'), name='history'),
+    url(r'^standard/$', TemplateView.as_view(template_name='standard.html'), name='standard'),
+    url(r'^whythisbreed/$', TemplateView.as_view(template_name='whythisbreed'), name='whythisbreed'),
 )
 
 
