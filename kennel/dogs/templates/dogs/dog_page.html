@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ dog.name }}{% endblock %}
+
+{% block content %}
+
+
+	<p>{{ dog.name }}</p>
+	<p>{{ dog.breeder }}</p>
+	{% if dog.photo %}
+		<p><img src="{{ MEDIA_URL}}{{ dog.photo }}" width=200 heigth=200/></p>
+	{% else %}
+		<img src="{{MEDIA_URL}}media/siluet_sobaki.jpg" wodth=200 height=200/>
+	{% endif %}
+	<p>{{ dog.sex }} </p>
+	<p>{{ dog.birthday }} </p>
+	<p><a href={{ dog.pedigree }}>Pedigree </a></p>
+	<p>{{ dog.hd }} </p>
+	<p>{{ dog.mdr1 }}</p>
+	<p>{{ dog.dm }}</p>
+	<p>{{ dog.titles }}</p>
+	<p>{{ dog.training }}</p>
+	<p>{{ dog.about_dog }}</p>
+	<a href="{% url 'photogallery:gallery' %}{{ dog.gallery.slug }}">Photogallery</a>
+	
+	
+
+{% endblock %}

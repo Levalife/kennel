@@ -16,3 +16,8 @@ def females(request):
 	gender = Gender.objects.get(gender="Female")
 	females = gender.dog_set.all()
 	return render(request, 'dogs/females.html', {'females': females})
+
+def dog_page(request, dog_id):
+	dog = Dog.objects.get(id=dog_id)
+	print dog.photo
+	return render(request, 'dogs/dog_page.html', {'dog': dog})

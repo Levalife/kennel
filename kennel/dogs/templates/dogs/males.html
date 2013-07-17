@@ -3,4 +3,14 @@
 {% block title %}{% endblock %}
 
 {% block content %}
+{% for male in males %}
+	<p><a href="{% url 'dogs:dog_page' male.id %}">{{ male.name }}</a></p>
+	<p>
+	{% if male.photo %}
+		<img src="{{ MEDIA_URL}}{{ male.photo }}" width=200 heigth=200/></p>
+	{% else %}
+		<img src="{{MEDIA_URL}}media/siluet_sobaki.jpg" wodth=200 height=200/>
+	{% endif %}
+</p>
+{% endfor %}
 {% endblock %}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title  %}Our puppies{% endblock %}
+{% block content %}
+{% for pupp in puppies %}
+	<p><a href="{% url 'puppies:litter' pupp.id %}">{{ pupp.litter }}</a></p>
+	<p>Mother: {{ pupp.mother }} x Father: {{ pupp.father }}</p>
+	<p>Birthday {{ pupp.birthday }}</p>
+	<p>Amount: {{ pupp.amount }}</p>
+{% endfor %}
+{% endblock %}

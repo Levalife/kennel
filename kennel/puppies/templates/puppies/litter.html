@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title  %}Our puppies{% endblock %}
+
+{% block content %}
+
+	<p>{{ litter.litter }}</p>
+	<p>Mother: {{ litter.mother }} x Father: {{ litter.father }}</p>
+	{% if litter.mother.photo %}
+	<img scr="{{ MEDIA_URL }}{{ litter.mother.photo }}" width=200 height=200>
+	{% endif %}
+	{% if litter.father.photo %}
+	<img scr="{{ MEDIA_URL }}{{ litter.father.photo }}" width=200 height=200>
+	{% endif %}
+	<p>{{ litter.mother.health }}		{{ litter.father.health }}</p>
+	<a href={{ litter.mother.pedigree }}>Mother pedigree</a><a href={{ litter.father.pedigree }}>Father pedigree</a>
+	<p>{{ litter.birthday }}</p>
+	<p>{{ litter.amount }}</p>
+	<a href="{% url 'photogallery:gallery' %}{{ litter.gallery.slug }}">Photogallery</a>
+
+{% endblock %}

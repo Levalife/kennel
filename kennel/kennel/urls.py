@@ -23,7 +23,7 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', home, name='home'),
-    url(r'^gallery/', include('photogallery.urls', namespace='gallery')),
+    url(r'^gallery/', include('photogallery.urls', namespace='photogallery')),
     url(r'^dogs/', include('dogs.urls', namespace='dogs')),
     url(r'^puppies/', include('puppies.urls', namespace='puppies')),
     url(r'^offsprings/', include('offsprings.urls', namespace='offsprings')),
