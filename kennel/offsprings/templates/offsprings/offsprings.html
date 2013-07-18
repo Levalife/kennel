@@ -2,12 +2,16 @@
 {% block title  %}Our offsprings{% endblock %}
 {% block content %}
 {% for offspring in offsprings %}
-	<p><a href="{% url 'offsprings:offspring_page' offspring.id %}">{{ offspring.name }}</a></p>
-	<p>Mother: {{ offspring.mother }} x Father: {{ offspring.father }}</p>
-	<p>Owner: {{ offspring.owner }}</p>
-	<p>Adress: {{ offspring.city }}</p>
+	<center>
+	<h3><a href="{% url 'offsprings:offspring_page' offspring.id %}">{{ offspring.name }}</a></h3>
 	{% if offspring.photo %}
-	<img src="{{ MEDIA_URL }}{{ offspring.photo }}" width=200 height=200>
+	<img src="{{ MEDIA_URL }}{{ offspring.photo }}" width=500 height=500>
 	{% endif %}
+	
+	<h4>Mother: {{ offspring.mother }} x Father: {{ offspring.father }}</h4>
+	<p>Owner: {{ offspring.owner }}</p>
+	<p>City: {{ offspring.city }}</p>
+	
+	</center>
 {% endfor %}
 {% endblock %}

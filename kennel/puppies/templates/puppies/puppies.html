@@ -2,9 +2,19 @@
 {% block title  %}Our puppies{% endblock %}
 {% block content %}
 {% for pupp in puppies %}
-	<p><a href="{% url 'puppies:litter' pupp.id %}">{{ pupp.litter }}</a></p>
-	<p>Mother: {{ pupp.mother }} x Father: {{ pupp.father }}</p>
+	<center>
+	<h3><a href="{% url 'puppies:litter' pupp.id %}">{{ pupp.litter }}</a></3>
+	<h2>Mother: {{ pupp.mother }} x Father: {{ pupp.father }}</h2>
 	<p>Birthday {{ pupp.birthday }}</p>
 	<p>Amount: {{ pupp.amount }}</p>
+	</center>
+	{% if pupp.mother.photo %}
+	Mother:
+	<img src="{{ MEDIA_URL }}{{ pupp.mother.photo }}" width=500 height=500>
+	{% endif %}
+	{% if pupp.father.photo %}
+	Father:
+	<img src="{{ MEDIA_URL }}{{ pupp.father.photo }}" width=500 height=500>
+	{% endif %}
 {% endfor %}
 {% endblock %}
