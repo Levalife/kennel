@@ -5,13 +5,14 @@
 {% block content %}
 
 {% for female in females %}
-	<p><a href="{% url 'dogs:dog_page' female.id %}">{{ female.name }}</a>
-	<p>
-	{% if female.photo %}
-		<img src="{{ MEDIA_URL}}{{ female.photo }}" width=200 heigth=200/>
+	<center><h3><a href="{% url 'dogs:dog_page' female.id %}">{{ female.name }}</a></h3>
+	
+	{% if male.photo %}
+		<img src="{{ MEDIA_URL}}{{ female.photo }}" width=500 heigth=500/>
 	{% else %}
-		<img src="{{MEDIA_URL}}media/siluet_sobaki.jpg" wodth=200 height=200/>
+		<img src="{{MEDIA_URL}}media/siluet_sobaki.jpg" wodth=300 height=300/>
 	{% endif %}
-	</p>
+	<p>{{ female.birthday }}</p>
+	</center>
 {% endfor %}
 {% endblock %}

@@ -30,7 +30,7 @@ urlpatterns = patterns('',
     url(r'^offsprings/', include('offsprings.urls', namespace='offsprings')),
     url(r'^history/$', TemplateView.as_view(template_name='history.html'), name='history'),
     url(r'^standard/$', TemplateView.as_view(template_name='standard.html'), name='standard'),
-    url(r'^whythisbreed/$', TemplateView.as_view(template_name='whythisbreed'), name='whythisbreed'),
+    url(r'^whythisbreed/$', TemplateView.as_view(template_name='whythisbreed.html'), name='whythisbreed'),
 )
 
 
