@@ -3,15 +3,19 @@
 <head><title>{% block title %}{% endblock %}</title>
 	
 	<link rel='stylesheet' href='{{ STATIC_URL }}css/prettyPhoto.css' type='text/css' media='screen' charset='utf-8' />
-	<link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap.min.css" type='text/css' >
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap.css" type='text/css' >
 
     
 
 	<script src="{{ STATIC_URL }}js/jquery-2.0.3.js" type='text/javascript' charset="utf-8"></script>
 	<script src="{{ STATIC_URL }}js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 	<script src="{{ STATIC_URL }}js/bootstrap.js"></script>
-	
-	
+	<style>
+
+		a:link {color: #333333;}
+		a:hover {color: #333333;}
+		a:active {color: #333333;}
+	</style>
 </head>
 <body>
 
@@ -48,7 +52,7 @@
 				<li><a href="{% url 'offsprings:our_offsprings' %}">Offsprings</a></li>
 				<li><a href="{% url 'photogallery:gallery' %}">Gallery</a></li>
 			
-				<li><a href="#">Contacts</a></li>
+				<li><a href="{% url 'contacts' %}">Contacts</a></li>
 			</ul>
 			</div>	
 			

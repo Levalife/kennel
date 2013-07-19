@@ -14,6 +14,13 @@ ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )
 
+LIST_OF_EMAIL_RECIPIENTS = ['levushka14@gmail.com']
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'levushka14@gmail.com'
+EMAIL_HOST_PASSWORD = 'cnhtkmxer17'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
 MANAGERS = ADMINS
 
 DATABASES = {
@@ -40,7 +47,7 @@ TIME_ZONE = 'Europe/Kiev'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'ru-ru'
+LANGUAGE_CODE = 'en-en'
 
 SITE_ID = 1
 
@@ -136,12 +143,14 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'south',
+    'captcha',
     'news',
     'photogallery',
     'sorl.thumbnail',
     'dogs',
     'puppies',
     'offsprings',
+    'contacts',
 )
 
 # A sample logging configuration. The only tangible logging

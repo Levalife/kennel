@@ -14,5 +14,8 @@
 	{% endif %}
 	<p>{{ female.birthday }}</p>
 	</center>
+	<div class='row-fluid'>
+		<div class='offset8'><a href="{% url 'dogs:dog_page' female.id %}">More...</a></div>
+	</div>
 {% endfor %}
 {% endblock %}

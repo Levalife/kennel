@@ -13,5 +13,8 @@
 	<p>City: {{ offspring.city }}</p>
 	
 	</center>
+	<div class='row-fluid'>
+		<div class='offset8'><a href="{% url 'offsprings:offspring_page' offspring.id %}">More...</a></div>
+	</div>
 {% endfor %}
 {% endblock %}

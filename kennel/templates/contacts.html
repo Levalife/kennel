@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Contacts{% endblock %}
+{% block content %}
+<br/>
+<br/>
+<br/>
+
+
+		<td><h4>Owners of the kennel:</h4> First name Last name
+		<h5>Adress:</h5> Zip Code, Country, City, Street
+		<h5>Telephones:</h5> 
+		<p>****-***-**-** Name </p>
+		<p>****-***-**-** Name </p>
+	
+	<br/>
+	<br/>
+	<br/>
+	<div class='form right'>
+	<h4>You can contact us and we'll surely answer you!</h4>
+	<form method='POST' action=''>
+		{% csrf_token %}
+		<div class='form mystyle'>
+			{{ form }}
+		</div>
+		<input type='submit' value='Send'>
+	</form>
+</div>
+{% endblock %}

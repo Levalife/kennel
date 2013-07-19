@@ -10,9 +10,12 @@
 	{% if male.photo %}
 		<img src="{{ MEDIA_URL}}{{ male.photo }}" width=500 heigth=500/>
 	{% else %}
-		<img src="{{MEDIA_URL}}media/siluet_sobaki.jpg" wodth=300 height=300/>
+		<img src="{{MEDIA_URL}}media/siluet_sobaki.jpg" width=400 height=400/>
 	{% endif %}
 	<p>{{ male.birthday }}</p>
 	</center>
+	<div class='row-fluid'>
+		<div class='offset8'><a href="{% url 'dogs:dog_page' male.id %}">More...</a></div>
+	</div>
 {% endfor %}
 {% endblock %}
