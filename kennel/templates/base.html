@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head><title>{% block title %}{% endblock %}</title>
+	
+	<link rel='stylesheet' href='{{ STATIC_URL }}css/prettyPhoto.css' type='text/css' media='screen' charset='utf-8' />
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap.css" type='text/css' >
+
+    
+
+	<script src="{{ STATIC_URL }}js/jquery-2.0.3.js" type='text/javascript' charset="utf-8"></script>
+	<script src="{{ STATIC_URL }}js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="{{ STATIC_URL }}js/bootstrap.js"></script>
+	<style>
+
+		a:link {color: #333333;}
+		a:hover {color: #333333;}
+		a:active {color: #333333;}
+	</style>
+</head>
+<body>
+
+	<div class="navbar navbar-static-top navbar-inverse">
+
+		<div class='navbar-inner'>
+			<div class='container'>
+
+			<a class="brand" href='#'>Kennel</a>
+			<ul class='nav'>
+				<li><a href="{% url 'home' %}">Home</a></li>
+				<li class='dropdown'>
+					<a class="dropdown-toggle" data-toggle="dropdown" href='#'>
+						About breed <b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="{% url 'history' %}">History</a></li>
+						<li><a href="{% url 'standard' %}">Standard</a></li>
+						<li><a href="{% url 'whythisbreed' %}">Why this breed?</a></li>
+					</ul>
+				</li>
+				
+				<li class='dropdown'>
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						Our dogs<b class='caret'></b>
+					</a>
+					<ul class='dropdown-menu'>
+						<li><a href="{% url 'dogs:males' %}">Males</a></li>
+						<li><a href="{% url 'dogs:females' %}">Females</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="{% url 'puppies:our_puppies' %}">Puppies</a></li>
+				<li><a href="{% url 'offsprings:our_offsprings' %}">Offsprings</a></li>
+				<li><a href="{% url 'photogallery:gallery' %}">Gallery</a></li>
+			
+				<li><a href="{% url 'contacts' %}">Contacts</a></li>
+			</ul>
+			</div>	
+			
+		</div>
+	</div>
+	<div class='container'>
+		
+{% block content %}
+{% endblock %}
+{% block text %}
+{% endblock %}
+{% block script %}
+{% endblock %}
+
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+    	$("a[rel^='prettyPhoto']").prettyPhoto();
+	});
+</script>
+	</div>
+</body>	
+</html>

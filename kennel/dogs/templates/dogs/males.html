@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+{% for male in males %}
+	<center>
+	<h3><a href="{% url 'dogs:dog_page' male.id %}">{{ male.name }}</a></h3>
+	
+	{% if male.photo %}
+		<img src="{{ MEDIA_URL}}{{ male.photo }}" width=500 heigth=500/>
+	{% else %}
+		<img src="{{MEDIA_URL}}media/siluet_sobaki.jpg" width=400 height=400/>
+	{% endif %}
+	<p>{{ male.birthday }}</p>
+	</center>
+	<div class='row-fluid'>
+		<div class='offset8'><a href="{% url 'dogs:dog_page' male.id %}">More...</a></div>
+	</div>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Our females{% endblock %}
+
+{% block content %}
+
+{% for female in females %}
+	<center><h3><a href="{% url 'dogs:dog_page' female.id %}">{{ female.name }}</a></h3>
+	
+	{% if male.photo %}
+		<img src="{{ MEDIA_URL}}{{ female.photo }}" width=500 heigth=500/>
+	{% else %}
+		<img src="{{MEDIA_URL}}media/siluet_sobaki.jpg" wodth=300 height=300/>
+	{% endif %}
+	<p>{{ female.birthday }}</p>
+	</center>
+	<div class='row-fluid'>
+		<div class='offset8'><a href="{% url 'dogs:dog_page' female.id %}">More...</a></div>
+	</div>
+{% endfor %}
+{% endblock %}
