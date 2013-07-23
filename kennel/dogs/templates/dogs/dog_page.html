@@ -1,17 +1,18 @@
 {% extends 'base.html' %}
 
 {% block title %}{{ dog.name }}{% endblock %}
-
+{% load thumbnail %}
 {% block content %}
 
-
-	<p>{{ dog.name }}</p>
+	<center>
+	<h3>{{ dog.name }}</h3>
 	<p>{{ dog.breeder }}</p>
 	{% if dog.photo %}
 		<p><img src="{{ MEDIA_URL}}{{ dog.photo }}" width=200 heigth=200/></p>
 	{% else %}
 		<img src="{{MEDIA_URL}}media/siluet_sobaki.jpg" wodth=200 height=200/>
 	{% endif %}
+	</center>
 	<p>{{ dog.sex }} </p>
 	<p>{{ dog.birthday }} </p>
 	<p><a href={{ dog.pedigree }}>Pedigree </a></p>
@@ -21,8 +22,14 @@
 	<p>{{ dog.titles }}</p>
 	<p>{{ dog.training }}</p>
 	<p>{{ dog.about_dog }}</p>
-	<a href="{% url 'photogallery:gallery' %}{{ dog.gallery.slug }}">Photogallery</a>
-	
+	<h3><a href="{% url 'gallery:album' dog.gallery.id 'thumbnails' %}">{{ dog.gallery.title }} </a> ({{ dog.gallery.image_set.count }} images)</h3>
+		<ul>
+		{% for img in dog.gallery.image_set.all %}
+			{% thumbnail img '200x200' crop='center' as im %}
+			<a href="{{ MEDIA_URL }}{{ img }}" rel="prettyPhoto[pp_gal]"><img src='{{ im.url }}' alt="{{ im.title }}" width="{{ im.width }}" height="{{ im.height }}" class='img-rounded'></a>
+			{% endthumbnail %}
+		{% endfor %}
+		</ul>
 	
 
 {% endblock %}

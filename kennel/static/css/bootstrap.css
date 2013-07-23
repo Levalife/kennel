@@ -1163,8 +1163,8 @@ input[type="color"],
 }
  
 .form.right {
-  position: absolute;
-  top: 20%;
+  position: relative;
+  top: 15%;
   left: 45%;
 }
 

@@ -1,7 +1,7 @@
 from django.db import models
 import datetime
 
-from photogallery.models import Album
+from gallery.models import Album
 
 class Gender(models.Model):
 	gender = models.CharField(max_length=15)
