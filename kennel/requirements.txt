@@ -1,5 +1,0 @@
-django==1.5.1
-south
-pillow==2.0.0
-sorl-thumbnail==11.12
-django-simple-captcha

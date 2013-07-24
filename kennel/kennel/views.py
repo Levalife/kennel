@@ -4,7 +4,8 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from news.models import News
 
 def home(request):
-	news = News.objects.all()
+	news = News.objects.all().order_by('-pk')
+	print news
 	paginator = Paginator(news, 10)
 	page = request.GET.get('page')
 	try:

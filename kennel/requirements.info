@@ -1,0 +1,6 @@
+django
+south
+pillow
+sorl-thumbnail
+django-simple-captcha
+psycopg2

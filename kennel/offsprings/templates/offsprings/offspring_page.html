@@ -21,7 +21,7 @@
 	<p>{{ offspring.titles }}</p>
 	<p>{{ offspring.training }}</p>
 	<p>{{ offspring.about_dog }}</p>
-	<h3><a href="{% url 'gallery:album' offspring.gallery.id 'thumbnails' %}">{{ offspring.gallery.title }} </a> ({{ litter.gallery.image_set.count }} images)</h3>
+	<h3><a href="{% url 'gallery:album' offspring.gallery.id 'thumbnails' %}">{{ offspring.gallery.title }} </a> ({{ offspring.gallery.image_set.count }} images)</h3>
 		<ul>
 		{% for img in offspring.gallery.image_set.all %}
 			{% thumbnail img '200x200' crop='center' as im %}
