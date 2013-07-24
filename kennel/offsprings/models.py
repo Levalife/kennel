@@ -3,7 +3,7 @@ from django.db import models
 import datetime
 
 from dogs.models import Gender
-from photogallery.models import Album
+from gallery.models import Album
 
 class Offspring(models.Model):
 	name = models.CharField(max_length=80)

@@ -24,7 +24,7 @@
 		<div class='navbar-inner'>
 			<div class='container'>
 
-			<a class="brand" href='#'>Kennel</a>
+			<a class="brand" href="{% url 'home' %}">Kennel</a>
 			<ul class='nav'>
 				<li><a href="{% url 'home' %}">Home</a></li>
 				<li class='dropdown'>
@@ -50,8 +50,7 @@
 				
 				<li><a href="{% url 'puppies:our_puppies' %}">Puppies</a></li>
 				<li><a href="{% url 'offsprings:our_offsprings' %}">Offsprings</a></li>
-				<li><a href="{% url 'photogallery:gallery' %}">Gallery</a></li>
-			
+				<li><a href="{% url 'gallery:albums' %}">Gallery</a></li>
 				<li><a href="{% url 'contacts' %}">Contacts</a></li>
 			</ul>
 			</div>	

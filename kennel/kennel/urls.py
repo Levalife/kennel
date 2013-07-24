@@ -24,7 +24,7 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', home, name='home'),
-    url(r'^gallery/', include('photogallery.urls', namespace='photogallery')),
+    #url(r'^gallery/', include('photogallery.urls', namespace='photogallery')),
     url(r'^dogs/', include('dogs.urls', namespace='dogs')),
     url(r'^puppies/', include('puppies.urls', namespace='puppies')),
     url(r'^offsprings/', include('offsprings.urls', namespace='offsprings')),
@@ -33,6 +33,7 @@ urlpatterns = patterns('',
     url(r'^whythisbreed/$', TemplateView.as_view(template_name='whythisbreed.html'), name='whythisbreed'),
     url(r'^contacts/$', ContactCreateView.as_view(), name='contacts'),
     url(r'^thanks/$', TemplateView.as_view(template_name='success_contact.html')),
+    url(r'^gallery/', include('gallery.urls', namespace='gallery'))
 )
 
 #for media

@@ -8,6 +8,8 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+
+
 .clearfix {
   *zoom: 1;
 }
@@ -1144,18 +1146,25 @@ input[type="color"],
 }
 
 .mystyle input[type='text'] {
-  width: 350px;
+  width: 380px;
   
 }
 
+.mystyle input[type='text']#id_captcha_1 {
+  width: 160px;
+  
+}
+
+
+
 .mystyle textarea {
-  width: 350px;
+  width: 380px;
   
 }
  
 .form.right {
-  position: absolute;
-  top: 20%;
+  position: relative;
+  top: 15%;
   left: 45%;
 }
 

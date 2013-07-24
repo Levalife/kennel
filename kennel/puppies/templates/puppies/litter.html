@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block title  %}Litter {{ litter.litter }}{% endblock %}
-
+{% load thumbnail %}
 {% block content %}
 	<center>
 	<h3>{{ litter.litter }}</h3>
@@ -29,7 +29,14 @@
 		</tr>
 		<tr><td colspan='2'>{{ litter.birthday }}</td></tr>
 		<tr><td>{{ litter.amount }}</td></tr>
-		<tr><td colspan='2'><a href="{% url 'photogallery:gallery' %}{{ litter.gallery.slug }}">Photogallery</a></td></tr>
+		
 	</table>
-
+		<h3><a href="{% url 'gallery:album' litter.gallery.id 'thumbnails' %}">{{ litter.gallery.title }} </a> ({{ litter.gallery.image_set.count }} images)</h3>
+		<ul>
+		{% for img in litter.gallery.image_set.all %}
+			{% thumbnail img '200x200' crop='center' as im %}
+			<a href="{{ MEDIA_URL }}{{ img }}" rel="prettyPhoto[pp_gal]"><img src='{{ im.url }}' alt="{{ im.title }}" width="{{ im.width }}" height="{{ im.height }}" class='img-rounded'></a>
+			{% endthumbnail %}
+		{% endfor %}
+		</ul>
 {% endblock %}
