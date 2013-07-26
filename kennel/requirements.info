@@ -4,3 +4,4 @@ pillow
 sorl-thumbnail
 django-simple-captcha
 psycopg2
+django-localeurl

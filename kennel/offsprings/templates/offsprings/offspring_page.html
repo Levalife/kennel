@@ -21,6 +21,7 @@
 	<p>{{ offspring.titles }}</p>
 	<p>{{ offspring.training }}</p>
 	<p>{{ offspring.about_dog }}</p>
+	{% if offspring.gallery.id %}
 	<h3><a href="{% url 'gallery:album' offspring.gallery.id 'thumbnails' %}">{{ offspring.gallery.title }} </a> ({{ offspring.gallery.image_set.count }} images)</h3>
 		<ul>
 		{% for img in offspring.gallery.image_set.all %}
@@ -29,6 +30,6 @@
 			{% endthumbnail %}
 		{% endfor %}
 		</ul>
-	
+	{% endif %}
 
 {% endblock %}

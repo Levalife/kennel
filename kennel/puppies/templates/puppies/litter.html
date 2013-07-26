@@ -31,6 +31,7 @@
 		<tr><td>{{ litter.amount }}</td></tr>
 		
 	</table>
+	{% if litter.gallery.id %}
 		<h3><a href="{% url 'gallery:album' litter.gallery.id 'thumbnails' %}">{{ litter.gallery.title }} </a> ({{ litter.gallery.image_set.count }} images)</h3>
 		<ul>
 		{% for img in litter.gallery.image_set.all %}
@@ -39,4 +40,5 @@
 			{% endthumbnail %}
 		{% endfor %}
 		</ul>
+	{% endif %}
 {% endblock %}

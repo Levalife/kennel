@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-25 20:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\puppies\templates\puppies\puppies.html.py:8
+#: .\puppies\templates\puppies\puppies.html.py:14
+msgid "MMutter"
+
+#: .\puppies\templates\puppies\puppies.html.py:8
+msgid "Father"
+msgstr "aergareh"
+
+#: .\puppies\templates\puppies\puppies.html.py:18
+msgid "Father:"
+msgstr "dtgjfrstj"
+
+#: .\templates\base.html.py:32
+msgid "Main"
+msgstr "frkxfk"
+
+#: .\templates\base.html.py:35
+msgid "About breed"
+msgstr "xgllxu"
+
+#: .\templates\base.html.py:45
+msgid "Our dogs"
+msgstr "RFj"
+
+#: .\templates\base.html.py:48
+msgid "Males"
+msgstr "RHh"
+
+#: .\templates\base.html.py:49
+msgid "Females"
+msgstr "rdhj"
+
+#: .\templates\base.html.py:53
+msgid "Puppies"
+msgstr "djsrk"
+
+#: .\templates\base.html.py:54
+msgid "Offsprings"
+msgstr "shrJ"
+
+#: .\templates\base.html.py:55
+msgid "Gallery"
+msgstr "shSRh"
+
+#: .\templates\base.html.py:56
+msgid "Contacts"
+msgstr "SHsR"
+
+#: .\templates\home.html.py:6
+msgid "Our news"
+msgstr "rHRh"

@@ -1,8 +1,9 @@
 {% extends 'base.html' %}
+{% load i18n %}
 {% load thumbnail %}
 {% block title %}Home{% endblock %}
 {% block content %}
-	
+
 {% for n in all_news %}
 	<h3><a href="{% url 'news:news_page' n.id %}">{{ n.title }}</a></h3>
 	<center><a href='{{ MEDIA_URL}}{{n.photo}}' rel="prettyPhoto[pp_gal]"><img src='{{ MEDIA_URL}}{{n.photo}}' width=600 heigth=600 class='img-rounded'></a></center>

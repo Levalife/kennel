@@ -34,17 +34,27 @@ urlpatterns = patterns('',
     url(r'^whythisbreed/$', TemplateView.as_view(template_name='whythisbreed.html'), name='whythisbreed'),
     url(r'^contacts/$', ContactCreateView.as_view(), name='contacts'),
     url(r'^thanks/$', TemplateView.as_view(template_name='success_contact.html')),
-    url(r'^gallery/', include('gallery.urls', namespace='gallery'))
+    url(r'^gallery/', include('gallery.urls', namespace='gallery')),
+    #url(r'^i18n/', include('django.conf.urls.i18n')),
 )
 
+
+urlpatterns += patterns('',
+    
+    #(r'^localeurl/', include('localeurl.urls')),\
+    (r'^i18n/', include('django.conf.urls.i18n')),
+    
+)
 #for media
 urlpatterns += patterns('',
- url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT, 'show_indexes': True}),
+    url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT, 'show_indexes': True}),
 )
 
 #for captcha 
 urlpatterns += patterns('',
     url(r'^captcha/', include('captcha.urls')),
 )
+
+
 
 

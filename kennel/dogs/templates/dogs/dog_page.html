@@ -10,7 +10,7 @@
 	{% if dog.photo %}
 		<p><img src="{{ MEDIA_URL}}{{ dog.photo }}" width=200 heigth=200/></p>
 	{% else %}
-		<img src="{{MEDIA_URL}}media/siluet_sobaki.jpg" wodth=200 height=200/>
+		<img src="{{MEDIA_URL}}siluet_sobaki.jpg" wodth=200 height=200/>
 	{% endif %}
 	</center>
 	<p>{{ dog.sex }} </p>
@@ -22,6 +22,7 @@
 	<p>{{ dog.titles }}</p>
 	<p>{{ dog.training }}</p>
 	<p>{{ dog.about_dog }}</p>
+	<% if dog.gallery.id %>
 	<h3><a href="{% url 'gallery:album' dog.gallery.id 'thumbnails' %}">{{ dog.gallery.title }} </a> ({{ dog.gallery.image_set.count }} images)</h3>
 		<ul>
 		{% for img in dog.gallery.image_set.all %}
@@ -30,6 +31,6 @@
 			{% endthumbnail %}
 		{% endfor %}
 		</ul>
-	
+	{% endif %}
 
 {% endblock %}
