@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans 'Contacts' %}{% endblock %}
+{% block content %}
+<br/>
+<br/>
+<br/>
+
+
+		<td><h4>{% trans 'Owners of the kennel' %}:</h4> {% trans 'First name Last name' %}
+		<h5>{% trans 'Adress' %}:</h5> {% trans 'Zip Code, Country, City, Street' %}
+		<h5>{% trans 'Telephones' %}:</h5> 
+		<p>****-***-**-** {% trans 'Name' %} </p>
+		<p>****-***-**-** {% trans 'Name' %} </p>
+	
+	<br/>
+	<br/>
+	<br/>
+	<div class='form right'>
+	<h4>{% trans "You can contact us and we'll surely answer you" %}!</h4>
+	<form method='POST' action=''>
+		{% csrf_token %}
+		<div class='form mystyle'>
+			{{ form }}
+		</div>
+		<input class='btn btn-inverse offset4'  type='submit' value='{% trans "Send" %}'>
+	</form>
+</div>
+{% endblock %}

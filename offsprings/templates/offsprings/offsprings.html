@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% load i18n %}
+
+{% block title  %}{% trans 'Our offsprings' %}{% endblock %}
+
+{% block content %}
+{% for offspring in page_offsprings %}
+	<center>
+	<h3><a href="{% url 'offsprings:offspring_page' offspring.id %}">{{ offspring.name }}</a></h3>
+	{% if offspring.photo %}
+	<img src="{{ MEDIA_URL }}{{ offspring.photo }}" width=500 height=500>
+	
+	{% endif %}
+	
+	<h4>{% trans 'Mother' %}: {{ offspring.mother }} x {% trans 'Father' %}: {{ offspring.father }}</h4>
+	{% if offspring.owner %}
+	<p><b>{% trans 'Owner' %}:</b> {{ offspring.owner }}</p>
+	{% endif %}
+
+	{% if offspring.owner %}
+	<p><b>{% trans 'City' %}:</b> {{ offspring.city }}</p>
+	{% endif %}
+	</center>
+	<div class='row-fluid'>
+		<div class='offset8'><a href="{% url 'offsprings:offspring_page' offspring.id %}">{% trans 'More' %}...</a></div>
+	</div>
+{% endfor %}
+
+ <div class='pagination'>
+  <span class="step-links">
+    <div class='pagination-current'>
+            {% blocktrans with page_offsprings.number as page_offsprings.number and page_offsprings.paginator.num_pages as page_offsprings.paginator.num_pages %}Page {{ page_offsprings.number }} of {{ page_offsprings.paginator.num_pages }}{% endblocktrans %}
+    </div>
+
+
+    {% if page_offsprings.has_previous %}
+      <a class="pagination-control left" href="?page={{ page_offsprings.previous_page_number }}">&lsaquo;</a>
+    {% endif %}
+
+      
+    {% if page_offsprings.has_next %}
+      <a class="pagination-control right" href="?page={{ page_offsprings.next_page_number }}">&rsaquo;</a>
+    {% endif %}
+    </span>
+</div>
+{% endblock %}

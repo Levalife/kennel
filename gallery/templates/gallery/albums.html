@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans 'Albums' %}{% endblock %}
+{% block content %}
+{% load thumbnail %}
+<ul>
+	{% for album in albums %}
+	<h3><a href="{% url 'gallery:album' album.id 'thumbnails' %}">{{ album.title }} </a> ({{ album.image_set.count }} {% blocktrans count album.image_set.count as counter %}image{% plural %}images{% endblocktrans %})</h3>
+	<ul>
+		{% for img in album.image_set.all %}
+			{% thumbnail img '200x200' crop='center' as im %}
+			<a href="{{ MEDIA_URL }}{{ img }}" rel="prettyPhoto[pp_gal]"><img src='{{ im.url }}' alt="{{ im.title }}" width="{{ im.width }}" height="{{ im.height }}" class='img-rounded'></a>
+			{% endthumbnail %}
+		{% endfor %}
+	</ul>
+	{% endfor %}
+</ul>	
+
+
+<div class='pagination'>
+	<span class='step-link'>
+	{% if albums.has_previous %}
+		<a class="pagination-control left" href= "?page={{ albums.previous_page_number }}">&lsaquo;</a>
+	{% endif %}
+
+	<span class='pagination-current'>
+		{% blocktrans with albums.number as albums.number and albums.paginator.num_pages as albums.paginator.num_pages %} Page {{ albums.number }} of {{ albums.paginator.num_pages }}{% endblocktrans %}
+	</span>
+
+	{% if albums.has_next %}
+		<a class="pagination-control right" href= "?page={{ albums.next_page_number }}">&rsaquo;</a>
+	{% endif %}
+	</span>
+</div>
+
+{% endblock %}

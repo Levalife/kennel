@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title  %}{% trans 'Litter' %} {{ litter.litter }}{% endblock %}
+{% load thumbnail %}
+{% block content %}
+	<center>
+	<h3>{% trans 'Litter' %} {{ litter.litter }}</h3>
+	<h5>{% trans 'Birthday'%}: {{ litter.birthday }}</h5>
+	<h5>{% trans 'Amount' %}: {{ litter.amount }} </h5>
+	
+	<h4>{% trans 'Mother'%}: {{ litter.mother }} x {% trans 'Father'%}: {{ litter.father }}</h4>
+	</center>
+	<table class='table'>
+		<tr>
+			{% if litter.mother_photo %}
+			<td><a href='{{ MEDIA_URL }}{{ litter.mother_photo }}' rel="prettyPhoto[pp_gal]">
+				<img src="{{ MEDIA_URL }}{{ litter.mother_photo }}" width=300 height=300></a>
+			</td>
+			{% endif %}
+			{% if litter.father_photo %}
+			<td><a href='{{ MEDIA_URL }}{{ litter.father_photo }}' rel="prettyPhoto[pp_gal]">
+				<img src="{{ MEDIA_URL }}{{ litter.father_photo }}" width=300 height=300></a>
+			</td>
+			{% endif %}
+		</tr>	
+		<tr><td>{% if litter.mother_health %}
+				<b>{% trans 'Health' %}:</b> {{ litter.mother_health }}
+			{% endif %}</td>
+			<td>{% if litter.father_health %}
+				<b>{% trans 'Health' %}:</b> {{ litter.father_health }}
+			{% endif %} </td>
+		</tr>	
+		<tr><td>{% if litter.mother_pedigree %}
+				<a href={{ litter.mother_pedigree }}>{% trans 'Mother pedigree' %}</a>
+			{% endif %}</td>
+			<td>{% if litter.father_pedigree %}
+				<a href={{ litter.father_pedigree }}>{% trans 'Father pedigree' %}</a>
+			{% endif %}</td>
+		</tr>
+		<tr><td>{% if litter.mother_titles %}
+				<b>{% trans 'Entitlements' %}:</b> {{ litter.mother_titles }}
+			{% endif %}</td>
+			<td>{% if litter.father_titles %}
+				<b>{% trans 'Entitlements' %}:</b> {{ litter.father_titles }}
+			{% endif %} </td>
+		</tr>	
+		<tr><td>{% if litter.mother_training %}
+				<b>{% trans 'Achievements' %}:</b> {{ litter.mother_training }}
+			{% endif %}</td>
+			<td>{% if litter.father_training %}
+				<b>{% trans 'Achievements' %}:</b> {{ litter.father_training }}
+			{% endif %} </td>
+		</tr>	
+		
+	</table>
+	{% if litter.gallery.id %}
+		<h3><a href="{% url 'gallery:album' litter.gallery.id 'thumbnails' %}">{{ litter.gallery.title }} </a> ({{ litter.gallery.image_set.count }}  {% blocktrans count litter.gallery.image_set.count as counter %}image{% plural %}images{% endblocktrans %})</h3>
+		<ul>
+		{% for img in litter.gallery.image_set.all %}
+			{% thumbnail img '200x200' crop='center' as im %}
+			<a href="{{ MEDIA_URL }}{{ img }}" rel="prettyPhoto[pp_gal]"><img src='{{ im.url }}' alt="{{ im.title }}" width="{{ im.width }}" height="{{ im.height }}" class='img-rounded'></a>
+			{% endthumbnail %}
+		{% endfor %}
+		</ul>
+	{% endif %}
+{% endblock %}

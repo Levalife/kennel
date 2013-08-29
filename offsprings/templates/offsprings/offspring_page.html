@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title  %}{{  offspring.name }}{% endblock %}
+{% load thumbnail %}
+{% block content %}
+	<center>
+	<h3>{{ offspring.name }}</h3>
+	<h4>{% trans 'Mother' %}: {{ offspring.mother }} x {% trans 'Father' %}: {{ offspring.father }}</h4>
+	<p><b>{% trans 'Birthday' %}:</b> {{ offspring.birthday }} <b>{% trans 'Sex' %}:</b> {{ offspring.sex }}</p>
+	{% if offspring.photo %}
+	<img src="{{ MEDIA_URL }}{{ offspring.photo }}" width=500 height=500>
+	{% endif %}
+	</center>
+	<p><b>{% trans 'Owner' %}:</b> {{ offspring.owner }}</p>
+	<p><b>{% trans 'City' %}:</b> {{ offspring.city }}</p>
+	
+	
+	<p><a href={{ offspring.pedigree }}>{% trans 'Pedigree' %} </a></p>
+	<p><b>{% trans 'Health' %}:</b> ED/HD {{ offspring.hd }}, 
+	MDR1 {{ offspring.mdr1 }}, 
+	DM {{ offspring.dm }}</p>
+	<p><b>{% trans 'Entitlements' %}:</b> {{ offspring.titles }}</p>
+	<p><b>{% trans 'Achievements' %}:</b> {{ offspring.training }}</p>
+	<p><b>{% trans 'About dog' %}:</b> {{ offspring.about_dog }}</p>
+	{% if offspring.gallery.id %}
+	<h3><a href="{% url 'gallery:album' offspring.gallery.id 'thumbnails' %}">{{ offspring.gallery.title }} </a> ({{ offspring.gallery.image_set.count }} {% blocktrans count offspring.gallery.image_set.count as counter %}image{% plural %}images{% endblocktrans %})</h3>
+		<ul>
+		{% for img in offspring.gallery.image_set.all %}
+			{% thumbnail img '200x200' crop='center' as im %}
+			<a href="{{ MEDIA_URL }}{{ img }}" rel="prettyPhoto[pp_gal]"><img src='{{ im.url }}' alt="{{ im.title }}" width="{{ im.width }}" height="{{ im.height }}" class='img-rounded'></a>
+			{% endthumbnail %}
+		{% endfor %}
+		</ul>
+	{% endif %}
+
+{% endblock %}

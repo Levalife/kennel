@@ -1,0 +1,1671 @@
+2013-08-12 10:19:12 [5140] [INFO] Starting gunicorn 17.5
+2013-08-12 10:19:12 [5140] [INFO] Listening at: http://127.0.0.1:12345 (5140)
+2013-08-12 10:19:12 [5140] [INFO] Using worker: sync
+2013-08-12 10:19:12 [5145] [INFO] Booting worker with pid: 5145
+2013-08-12 10:19:12 [5146] [INFO] Booting worker with pid: 5146
+2013-08-12 10:19:12 [5147] [INFO] Booting worker with pid: 5147
+2013-08-12 10:20:52 [5145] [INFO] Worker exiting (pid: 5145)
+2013-08-12 10:20:52 [5146] [INFO] Worker exiting (pid: 5146)
+2013-08-12 10:20:52 [5147] [INFO] Worker exiting (pid: 5147)
+2013-08-12 10:20:52 [5140] [INFO] Handling signal: int
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+2013-08-12 10:20:52 [5140] [INFO] Shutting down: Master
+2013-08-12 10:21:15 [5150] [INFO] Starting gunicorn 17.5
+2013-08-12 10:21:15 [5150] [INFO] Listening at: http://127.0.0.1:12345 (5150)
+2013-08-12 10:21:15 [5150] [INFO] Using worker: sync
+2013-08-12 10:21:15 [5155] [INFO] Booting worker with pid: 5155
+2013-08-12 10:21:15 [5156] [INFO] Booting worker with pid: 5156
+2013-08-12 10:21:15 [5157] [INFO] Booting worker with pid: 5157
+2013-08-12 10:30:58 [5150] [INFO] Handling signal: term
+2013-08-12 10:30:58 [5157] [INFO] Worker exiting (pid: 5157)
+2013-08-12 10:30:58 [5155] [INFO] Worker exiting (pid: 5155)
+2013-08-12 10:30:58 [5156] [INFO] Worker exiting (pid: 5156)
+2013-08-12 10:30:58 [5150] [INFO] Shutting down: Master
+2013-08-12 10:30:59 [5182] [INFO] Starting gunicorn 17.5
+2013-08-12 10:30:59 [5182] [INFO] Listening at: http://127.0.0.1:8000 (5182)
+2013-08-12 10:30:59 [5182] [INFO] Using worker: sync
+2013-08-12 10:30:59 [5187] [INFO] Booting worker with pid: 5187
+2013-08-12 10:30:59 [5188] [INFO] Booting worker with pid: 5188
+2013-08-12 10:30:59 [5189] [INFO] Booting worker with pid: 5189
+2013-08-12 13:22:05 [5182] [INFO] Handling signal: term
+2013-08-12 13:22:05 [5187] [INFO] Worker exiting (pid: 5187)
+2013-08-12 13:22:05 [5189] [INFO] Worker exiting (pid: 5189)
+2013-08-12 13:22:05 [5188] [INFO] Worker exiting (pid: 5188)
+2013-08-12 13:22:06 [5182] [INFO] Shutting down: Master
+2013-08-12 13:57:18 [5253] [INFO] Starting gunicorn 17.5
+2013-08-12 13:57:18 [5253] [INFO] Listening at: http://127.0.0.1:8000 (5253)
+2013-08-12 13:57:18 [5253] [INFO] Using worker: sync
+2013-08-12 13:57:18 [5258] [INFO] Booting worker with pid: 5258
+2013-08-12 13:57:18 [5259] [INFO] Booting worker with pid: 5259
+2013-08-12 13:57:18 [5260] [INFO] Booting worker with pid: 5260
+2013-08-12 16:27:30 [5253] [INFO] Handling signal: term
+2013-08-12 16:27:30 [5258] [INFO] Worker exiting (pid: 5258)
+2013-08-12 16:27:30 [5260] [INFO] Worker exiting (pid: 5260)
+2013-08-12 16:27:30 [5259] [INFO] Worker exiting (pid: 5259)
+2013-08-12 16:27:30 [5253] [INFO] Shutting down: Master
+2013-08-12 16:27:31 [6015] [INFO] Starting gunicorn 17.5
+2013-08-12 16:27:31 [6015] [INFO] Listening at: http://127.0.0.1:8000 (6015)
+2013-08-12 16:27:31 [6015] [INFO] Using worker: sync
+2013-08-12 16:27:31 [6020] [INFO] Booting worker with pid: 6020
+2013-08-12 16:27:31 [6021] [INFO] Booting worker with pid: 6021
+2013-08-12 16:27:31 [6022] [INFO] Booting worker with pid: 6022
+2013-08-12 17:23:07 [6015] [INFO] Handling signal: term
+2013-08-12 17:23:07 [6022] [INFO] Worker exiting (pid: 6022)
+2013-08-12 17:23:07 [6021] [INFO] Worker exiting (pid: 6021)
+2013-08-12 17:23:07 [6020] [INFO] Worker exiting (pid: 6020)
+2013-08-12 17:23:07 [6015] [INFO] Shutting down: Master
+2013-08-12 17:23:08 [6494] [INFO] Starting gunicorn 17.5
+2013-08-12 17:23:08 [6494] [INFO] Listening at: http://127.0.0.1:8000 (6494)
+2013-08-12 17:23:08 [6494] [INFO] Using worker: sync
+2013-08-12 17:23:08 [6499] [INFO] Booting worker with pid: 6499
+2013-08-12 17:23:08 [6500] [INFO] Booting worker with pid: 6500
+2013-08-12 17:23:08 [6501] [INFO] Booting worker with pid: 6501
+2013-08-12 18:29:46 [6494] [INFO] Handling signal: term
+2013-08-12 18:29:46 [6499] [INFO] Worker exiting (pid: 6499)
+2013-08-12 18:29:46 [6501] [INFO] Worker exiting (pid: 6501)
+2013-08-12 18:29:46 [6500] [INFO] Worker exiting (pid: 6500)
+2013-08-12 18:29:47 [6494] [INFO] Shutting down: Master
+2013-08-12 18:37:20 [17742] [INFO] Starting gunicorn 17.5
+2013-08-12 18:37:20 [17742] [INFO] Listening at: http://127.0.0.1:8000 (17742)
+2013-08-12 18:37:20 [17742] [INFO] Using worker: sync
+2013-08-12 18:37:20 [17747] [INFO] Booting worker with pid: 17747
+2013-08-12 18:37:20 [17748] [INFO] Booting worker with pid: 17748
+2013-08-12 18:37:20 [17749] [INFO] Booting worker with pid: 17749
+2013-08-12 18:44:17 [17742] [INFO] Handling signal: term
+2013-08-12 18:44:17 [17748] [INFO] Worker exiting (pid: 17748)
+2013-08-12 18:44:17 [17747] [INFO] Worker exiting (pid: 17747)
+2013-08-12 18:44:17 [17749] [INFO] Worker exiting (pid: 17749)
+2013-08-12 18:44:17 [17742] [INFO] Shutting down: Master
+2013-08-12 18:44:19 [17755] [INFO] Starting gunicorn 17.5
+2013-08-12 18:44:19 [17755] [INFO] Listening at: http://127.0.0.1:8000 (17755)
+2013-08-12 18:44:19 [17755] [INFO] Using worker: sync
+2013-08-12 18:44:19 [17760] [INFO] Booting worker with pid: 17760
+2013-08-12 18:44:19 [17761] [INFO] Booting worker with pid: 17761
+2013-08-12 18:44:19 [17762] [INFO] Booting worker with pid: 17762
+2013-08-12 18:47:03 [17755] [INFO] Handling signal: term
+2013-08-12 18:47:03 [17762] [INFO] Worker exiting (pid: 17762)
+2013-08-12 18:47:03 [17760] [INFO] Worker exiting (pid: 17760)
+2013-08-12 18:47:03 [17761] [INFO] Worker exiting (pid: 17761)
+2013-08-12 18:47:03 [17755] [INFO] Shutting down: Master
+2013-08-12 18:47:04 [17771] [INFO] Starting gunicorn 17.5
+2013-08-12 18:47:04 [17771] [INFO] Listening at: http://127.0.0.1:8000 (17771)
+2013-08-12 18:47:04 [17771] [INFO] Using worker: sync
+2013-08-12 18:47:04 [17776] [INFO] Booting worker with pid: 17776
+2013-08-12 18:47:04 [17777] [INFO] Booting worker with pid: 17777
+2013-08-12 18:47:04 [17778] [INFO] Booting worker with pid: 17778
+2013-08-12 18:54:58 [17771] [INFO] Handling signal: term
+2013-08-12 18:54:58 [17776] [INFO] Worker exiting (pid: 17776)
+2013-08-12 18:54:58 [17777] [INFO] Worker exiting (pid: 17777)
+2013-08-12 18:54:58 [17778] [INFO] Worker exiting (pid: 17778)
+2013-08-12 18:54:58 [17771] [INFO] Shutting down: Master
+2013-08-12 18:55:50 [17803] [INFO] Starting gunicorn 17.5
+2013-08-12 18:55:50 [17803] [INFO] Listening at: http://127.0.0.1:8000 (17803)
+2013-08-12 18:55:50 [17803] [INFO] Using worker: sync
+2013-08-12 18:55:50 [17808] [INFO] Booting worker with pid: 17808
+2013-08-12 18:55:50 [17809] [INFO] Booting worker with pid: 17809
+2013-08-12 18:55:50 [17810] [INFO] Booting worker with pid: 17810
+2013-08-12 19:00:52 [17803] [INFO] Handling signal: term
+2013-08-12 19:00:52 [17810] [INFO] Worker exiting (pid: 17810)
+2013-08-12 19:00:52 [17809] [INFO] Worker exiting (pid: 17809)
+2013-08-12 19:00:52 [17808] [INFO] Worker exiting (pid: 17808)
+2013-08-12 19:00:52 [17803] [INFO] Shutting down: Master
+2013-08-12 19:04:33 [17833] [INFO] Starting gunicorn 17.5
+2013-08-12 19:04:33 [17833] [INFO] Listening at: http://127.0.0.1:8000 (17833)
+2013-08-12 19:04:33 [17833] [INFO] Using worker: sync
+2013-08-12 19:04:33 [17838] [INFO] Booting worker with pid: 17838
+2013-08-12 19:04:33 [17839] [INFO] Booting worker with pid: 17839
+2013-08-12 19:04:33 [17840] [INFO] Booting worker with pid: 17840
+2013-08-12 19:12:38 [17833] [INFO] Handling signal: term
+2013-08-12 19:12:38 [17838] [INFO] Worker exiting (pid: 17838)
+2013-08-12 19:12:38 [17839] [INFO] Worker exiting (pid: 17839)
+2013-08-12 19:12:38 [17840] [INFO] Worker exiting (pid: 17840)
+2013-08-12 19:12:38 [17833] [INFO] Shutting down: Master
+2013-08-12 23:43:09 [18160] [INFO] Starting gunicorn 17.5
+2013-08-12 23:43:09 [18160] [INFO] Listening at: http://127.0.0.1:8000 (18160)
+2013-08-12 23:43:09 [18160] [INFO] Using worker: sync
+2013-08-12 23:43:09 [18165] [INFO] Booting worker with pid: 18165
+2013-08-12 23:43:09 [18166] [INFO] Booting worker with pid: 18166
+2013-08-12 23:43:09 [18167] [INFO] Booting worker with pid: 18167
+2013-08-13 10:42:09 [18160] [INFO] Handling signal: term
+2013-08-13 10:42:09 [18166] [INFO] Worker exiting (pid: 18166)
+2013-08-13 10:42:09 [18167] [INFO] Worker exiting (pid: 18167)
+2013-08-13 10:42:09 [18165] [INFO] Worker exiting (pid: 18165)
+2013-08-13 10:42:10 [18160] [INFO] Shutting down: Master
+2013-08-13 10:42:39 [29098] [INFO] Starting gunicorn 17.5
+2013-08-13 10:42:39 [29098] [INFO] Listening at: http://127.0.0.1:8000 (29098)
+2013-08-13 10:42:39 [29098] [INFO] Using worker: sync
+2013-08-13 10:42:39 [29103] [INFO] Booting worker with pid: 29103
+2013-08-13 10:42:40 [29104] [INFO] Booting worker with pid: 29104
+2013-08-13 10:42:40 [29105] [INFO] Booting worker with pid: 29105
+2013-08-13 11:01:54 [29098] [INFO] Handling signal: term
+2013-08-13 11:01:54 [29104] [INFO] Worker exiting (pid: 29104)
+2013-08-13 11:01:54 [29105] [INFO] Worker exiting (pid: 29105)
+2013-08-13 11:01:54 [29103] [INFO] Worker exiting (pid: 29103)
+2013-08-13 11:01:54 [29098] [INFO] Shutting down: Master
+2013-08-13 11:01:56 [29199] [INFO] Starting gunicorn 17.5
+2013-08-13 11:01:56 [29199] [INFO] Listening at: http://127.0.0.1:8000 (29199)
+2013-08-13 11:01:56 [29199] [INFO] Using worker: sync
+2013-08-13 11:01:56 [29204] [INFO] Booting worker with pid: 29204
+2013-08-13 11:01:56 [29205] [INFO] Booting worker with pid: 29205
+2013-08-13 11:01:56 [29206] [INFO] Booting worker with pid: 29206
+2013-08-13 11:12:15 [29199] [INFO] Handling signal: term
+2013-08-13 11:12:15 [29204] [INFO] Worker exiting (pid: 29204)
+2013-08-13 11:12:15 [29206] [INFO] Worker exiting (pid: 29206)
+2013-08-13 11:12:15 [29205] [INFO] Worker exiting (pid: 29205)
+2013-08-13 11:12:15 [29199] [INFO] Shutting down: Master
+2013-08-13 11:12:16 [29244] [INFO] Starting gunicorn 17.5
+2013-08-13 11:12:16 [29244] [INFO] Listening at: http://127.0.0.1:8000 (29244)
+2013-08-13 11:12:16 [29244] [INFO] Using worker: sync
+2013-08-13 11:12:16 [29249] [INFO] Booting worker with pid: 29249
+2013-08-13 11:12:16 [29250] [INFO] Booting worker with pid: 29250
+2013-08-13 11:12:16 [29251] [INFO] Booting worker with pid: 29251
+2013-08-13 12:23:27 [29244] [INFO] Handling signal: term
+2013-08-13 12:23:27 [29249] [INFO] Worker exiting (pid: 29249)
+2013-08-13 12:23:27 [29250] [INFO] Worker exiting (pid: 29250)
+2013-08-13 12:23:27 [29251] [INFO] Worker exiting (pid: 29251)
+2013-08-13 12:23:27 [29244] [INFO] Shutting down: Master
+2013-08-13 12:23:29 [29601] [INFO] Starting gunicorn 17.5
+2013-08-13 12:23:29 [29601] [INFO] Listening at: http://127.0.0.1:8000 (29601)
+2013-08-13 12:23:29 [29601] [INFO] Using worker: sync
+2013-08-13 12:23:29 [29606] [INFO] Booting worker with pid: 29606
+2013-08-13 12:23:29 [29607] [INFO] Booting worker with pid: 29607
+2013-08-13 12:23:29 [29608] [INFO] Booting worker with pid: 29608
+2013-08-13 12:29:29 [29601] [INFO] Handling signal: term
+2013-08-13 12:29:29 [29606] [INFO] Worker exiting (pid: 29606)
+2013-08-13 12:29:29 [29608] [INFO] Worker exiting (pid: 29608)
+2013-08-13 12:29:29 [29607] [INFO] Worker exiting (pid: 29607)
+2013-08-13 12:29:29 [29601] [INFO] Shutting down: Master
+2013-08-13 12:29:31 [29621] [INFO] Starting gunicorn 17.5
+2013-08-13 12:29:31 [29621] [INFO] Listening at: http://127.0.0.1:8000 (29621)
+2013-08-13 12:29:31 [29621] [INFO] Using worker: sync
+2013-08-13 12:29:31 [29626] [INFO] Booting worker with pid: 29626
+2013-08-13 12:29:31 [29627] [INFO] Booting worker with pid: 29627
+2013-08-13 12:29:31 [29628] [INFO] Booting worker with pid: 29628
+2013-08-13 12:32:35 [29621] [INFO] Handling signal: term
+2013-08-13 12:32:35 [29628] [INFO] Worker exiting (pid: 29628)
+2013-08-13 12:32:35 [29627] [INFO] Worker exiting (pid: 29627)
+2013-08-13 12:32:35 [29626] [INFO] Worker exiting (pid: 29626)
+2013-08-13 12:32:35 [29621] [INFO] Shutting down: Master
+2013-08-13 12:32:36 [29680] [INFO] Starting gunicorn 17.5
+2013-08-13 12:32:36 [29680] [INFO] Listening at: http://127.0.0.1:8000 (29680)
+2013-08-13 12:32:36 [29680] [INFO] Using worker: sync
+2013-08-13 12:32:36 [29685] [INFO] Booting worker with pid: 29685
+2013-08-13 12:32:36 [29686] [INFO] Booting worker with pid: 29686
+2013-08-13 12:32:36 [29687] [INFO] Booting worker with pid: 29687
+2013-08-13 12:41:23 [29680] [INFO] Handling signal: term
+2013-08-13 12:41:23 [29685] [INFO] Worker exiting (pid: 29685)
+2013-08-13 12:41:23 [29686] [INFO] Worker exiting (pid: 29686)
+2013-08-13 12:41:23 [29687] [INFO] Worker exiting (pid: 29687)
+2013-08-13 12:41:23 [29680] [INFO] Shutting down: Master
+2013-08-13 12:41:25 [29697] [INFO] Starting gunicorn 17.5
+2013-08-13 12:41:25 [29697] [INFO] Listening at: http://127.0.0.1:8000 (29697)
+2013-08-13 12:41:25 [29697] [INFO] Using worker: sync
+2013-08-13 12:41:25 [29702] [INFO] Booting worker with pid: 29702
+2013-08-13 12:41:25 [29703] [INFO] Booting worker with pid: 29703
+2013-08-13 12:41:25 [29704] [INFO] Booting worker with pid: 29704
+2013-08-13 12:46:04 [29697] [INFO] Handling signal: term
+2013-08-13 12:46:04 [29704] [INFO] Worker exiting (pid: 29704)
+2013-08-13 12:46:04 [29703] [INFO] Worker exiting (pid: 29703)
+2013-08-13 12:46:04 [29702] [INFO] Worker exiting (pid: 29702)
+2013-08-13 12:46:04 [29697] [INFO] Shutting down: Master
+2013-08-13 12:46:05 [29710] [INFO] Starting gunicorn 17.5
+2013-08-13 12:46:05 [29710] [INFO] Listening at: http://127.0.0.1:8000 (29710)
+2013-08-13 12:46:05 [29710] [INFO] Using worker: sync
+2013-08-13 12:46:05 [29715] [INFO] Booting worker with pid: 29715
+2013-08-13 12:46:06 [29716] [INFO] Booting worker with pid: 29716
+2013-08-13 12:46:06 [29717] [INFO] Booting worker with pid: 29717
+2013-08-13 12:47:42 [29710] [INFO] Handling signal: term
+2013-08-13 12:47:42 [29715] [INFO] Worker exiting (pid: 29715)
+2013-08-13 12:47:42 [29717] [INFO] Worker exiting (pid: 29717)
+2013-08-13 12:47:42 [29716] [INFO] Worker exiting (pid: 29716)
+2013-08-13 12:47:42 [29710] [INFO] Shutting down: Master
+2013-08-13 12:47:44 [29723] [INFO] Starting gunicorn 17.5
+2013-08-13 12:47:44 [29723] [INFO] Listening at: http://127.0.0.1:8000 (29723)
+2013-08-13 12:47:44 [29723] [INFO] Using worker: sync
+2013-08-13 12:47:44 [29728] [INFO] Booting worker with pid: 29728
+2013-08-13 12:47:44 [29729] [INFO] Booting worker with pid: 29729
+2013-08-13 12:47:44 [29730] [INFO] Booting worker with pid: 29730
+2013-08-13 12:57:07 [29723] [INFO] Handling signal: term
+2013-08-13 12:57:07 [29730] [INFO] Worker exiting (pid: 29730)
+2013-08-13 12:57:07 [29729] [INFO] Worker exiting (pid: 29729)
+2013-08-13 12:57:07 [29728] [INFO] Worker exiting (pid: 29728)
+2013-08-13 12:57:07 [29723] [INFO] Shutting down: Master
+2013-08-13 12:57:09 [29753] [INFO] Starting gunicorn 17.5
+2013-08-13 12:57:09 [29753] [INFO] Listening at: http://127.0.0.1:8000 (29753)
+2013-08-13 12:57:09 [29753] [INFO] Using worker: sync
+2013-08-13 12:57:09 [29758] [INFO] Booting worker with pid: 29758
+2013-08-13 12:57:09 [29759] [INFO] Booting worker with pid: 29759
+2013-08-13 12:57:09 [29760] [INFO] Booting worker with pid: 29760
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/middleware/locale.py", line 21, in process_request
+    check_path = self.is_language_prefix_patterns_used()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/middleware/locale.py", line 56, in is_language_prefix_patterns_used
+    for url_pattern in get_resolver(None).url_patterns:
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/leval/web/kennel/kennel/urls.py", line 52, in <module>
+    {'document_root': settings.ADMIN_MEDIA_ROOT, 'show_indexes' : True}),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/conf/__init__.py", line 54, in __getattr__
+    return getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'ADMIN_MEDIA_ROOT'
+Internal Server Error: /dogs/males/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/dogs/views.py", line 11, in males
+    gender = Gender.objects.get(gender="Male")
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/db/models/manager.py", line 143, in get
+    return self.get_query_set().get(*args, **kwargs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 389, in get
+    (self.model._meta.object_name, kwargs))
+DoesNotExist: Gender matching query does not exist. Lookup parameters were {'gender': 'Male'}
+2013-08-13 13:42:23 [29753] [INFO] Handling signal: term
+2013-08-13 13:42:23 [29760] [INFO] Worker exiting (pid: 29760)
+thumbnails
+thumbnails
+2013-08-13 13:42:23 [29759] [INFO] Worker exiting (pid: 29759)
+thumbnails
+thumbnails
+thumbnails
+2013-08-13 13:42:23 [29758] [INFO] Worker exiting (pid: 29758)
+thumbnails
+full
+thumbnails
+2013-08-13 13:42:23 [29753] [INFO] Shutting down: Master
+2013-08-13 13:42:24 [29798] [INFO] Starting gunicorn 17.5
+2013-08-13 13:42:24 [29798] [INFO] Listening at: http://127.0.0.1:8000 (29798)
+2013-08-13 13:42:24 [29798] [INFO] Using worker: sync
+2013-08-13 13:42:24 [29803] [INFO] Booting worker with pid: 29803
+2013-08-13 13:42:25 [29804] [INFO] Booting worker with pid: 29804
+2013-08-13 13:42:25 [29805] [INFO] Booting worker with pid: 29805
+Internal Server Error: /dogs/1/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/dogs/views.py", line 23, in dog_page
+    return render(request, 'dogs/dog_page.html', {'dog': dog})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 327, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'endif', expected 'endblock'
+Internal Server Error: /dogs/1/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/dogs/views.py", line 23, in dog_page
+    return render(request, 'dogs/dog_page.html', {'dog': dog})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 327, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'endif', expected 'endblock'
+Internal Server Error: /dogs/1/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/dogs/views.py", line 23, in dog_page
+    return render(request, 'dogs/dog_page.html', {'dog': dog})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 327, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'endif', expected 'endblock'
+Internal Server Error: /dogs/1/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/dogs/views.py", line 23, in dog_page
+    return render(request, 'dogs/dog_page.html', {'dog': dog})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 327, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'endblock', expected 'elif', 'else' or 'endif'
+Internal Server Error: /admin/dogs/dog/1/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 372, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/utils/decorators.py", line 91, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 89, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 202, in inner
+    return view(request, *args, **kwargs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/utils/decorators.py", line 25, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/utils/decorators.py", line 91, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/utils/decorators.py", line 21, in bound_func
+    return func(self, *args2, **kwargs2)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/db/transaction.py", line 223, in inner
+    return func(*args, **kwargs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1127, in change_view
+    media = self.media + adminForm.media
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 415, in media
+    return forms.Media(js=[static('admin/js/%s' % url) for url in js])
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/contrib/staticfiles/templatetags/staticfiles.py", line 37, in static
+    return staticfiles_storage.url(path)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/utils/functional.py", line 202, in inner
+    self._setup()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/contrib/staticfiles/storage.py", line 307, in _setup
+    self._wrapped = get_storage_class(settings.STATICFILES_STORAGE)()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/contrib/staticfiles/storage.py", line 39, in __init__
+    check_settings(base_url)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/contrib/staticfiles/utils.py", line 56, in check_settings
+    raise ImproperlyConfigured("The MEDIA_ROOT and STATIC_ROOT "
+ImproperlyConfigured: The MEDIA_ROOT and STATIC_ROOT settings must have different values
+2013-08-13 13:58:36 [29798] [INFO] Handling signal: term
+2013-08-13 13:58:36 [29804] [INFO] Worker exiting (pid: 29804)
+2013-08-13 13:58:36 [29803] [INFO] Worker exiting (pid: 29803)
+
+
+
+
+
+
+2013-08-13 13:58:36 [29805] [INFO] Worker exiting (pid: 29805)
+
+
+2013-08-13 13:58:36 [29798] [INFO] Shutting down: Master
+2013-08-13 13:58:37 [30053] [INFO] Starting gunicorn 17.5
+2013-08-13 13:58:37 [30053] [INFO] Listening at: http://127.0.0.1:8000 (30053)
+2013-08-13 13:58:37 [30053] [INFO] Using worker: sync
+2013-08-13 13:58:37 [30058] [INFO] Booting worker with pid: 30058
+2013-08-13 13:58:37 [30059] [INFO] Booting worker with pid: 30059
+2013-08-13 13:58:37 [30060] [INFO] Booting worker with pid: 30060
+2013-08-13 14:17:46 [30053] [INFO] Handling signal: term
+2013-08-13 14:17:46 [30060] [INFO] Worker exiting (pid: 30060)
+2013-08-13 14:17:46 [30058] [INFO] Worker exiting (pid: 30058)
+2013-08-13 14:17:46 [30059] [INFO] Worker exiting (pid: 30059)
+media/2013-01-20_11.20.08.jpg
+media/2013-02-25_13.46.00-1.jpg
+2013-08-13 14:17:46 [30053] [INFO] Shutting down: Master
+2013-08-13 14:17:47 [30194] [INFO] Starting gunicorn 17.5
+2013-08-13 14:17:47 [30194] [INFO] Listening at: http://127.0.0.1:8000 (30194)
+2013-08-13 14:17:47 [30194] [INFO] Using worker: sync
+2013-08-13 14:17:47 [30199] [INFO] Booting worker with pid: 30199
+2013-08-13 14:17:48 [30200] [INFO] Booting worker with pid: 30200
+2013-08-13 14:17:48 [30201] [INFO] Booting worker with pid: 30201
+Internal Server Error: /dogs/1/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/dogs/views.py", line 23, in dog_page
+    return render(request, 'dogs/dog_page.html', {'dog': dog})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 327, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'endblock', expected 'elif','else' \u0438\u043b\u0438 'endif'
+2013-08-20 17:34:04 [30194] [INFO] Handling signal: term
+2013-08-20 17:34:04 [30199] [INFO] Worker exiting (pid: 30199)
+2013-08-20 17:34:04 [30201] [INFO] Worker exiting (pid: 30201)
+media/2013-02-25_13.46.00-1.jpg
+
+
+
+thumbnails
+thumbnails
+thumbnails
+full
+thumbnails
+thumbnails
+thumbnails
+thumbnails
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+media/2013-02-25_13.46.00-1.jpg
+media/2013-02-25_13.46.00-1.jpg
+
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+thumbnails
+thumbnails
+thumbnails
+full
+thumbnails
+thumbnails
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+2013-08-20 17:34:04 [30200] [INFO] Worker exiting (pid: 30200)
+
+
+
+media/2013-01-20_11.20.08.jpg
+
+thumbnails
+thumbnails
+full
+2013-08-20 17:34:04 [30194] [INFO] Shutting down: Master
+2013-08-20 17:34:06 [11520] [INFO] Starting gunicorn 17.5
+2013-08-20 17:34:06 [11520] [INFO] Listening at: http://127.0.0.1:8000 (11520)
+2013-08-20 17:34:06 [11520] [INFO] Using worker: sync
+2013-08-20 17:34:06 [11525] [INFO] Booting worker with pid: 11525
+2013-08-20 17:34:07 [11526] [INFO] Booting worker with pid: 11526
+2013-08-20 17:34:07 [11527] [INFO] Booting worker with pid: 11527
+Internal Server Error: /contacts/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = response.render()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/response.py", line 80, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/response.py", line 56, in resolve_template
+    return loader.select_template(template)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 188, in select_template
+    return get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/templatetags/i18n.py", line 358, in do_translate
+    value, noop, asvar, message_context = TranslateParser(token.contents).top()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/templatetags/i18n.py", line 355, in top
+    "Only options for 'trans' are 'noop', " \
+TemplateSyntaxError: Only options for 'trans' are 'noop', 'context "xxx"', and 'as VAR'.
+2013-08-20 22:50:47 [11520] [INFO] Handling signal: term
+2013-08-20 22:50:47 [11525] [INFO] Worker exiting (pid: 11525)
+2013-08-20 22:50:47 [11527] [INFO] Worker exiting (pid: 11527)
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+
+2013-08-20 22:50:47 [11526] [INFO] Worker exiting (pid: 11526)
+media/2013-01-20_11.20.08.jpg
+2013-08-20 22:50:47 [11520] [INFO] Shutting down: Master
+2013-08-20 22:50:48 [15071] [INFO] Starting gunicorn 17.5
+2013-08-20 22:50:48 [15071] [INFO] Listening at: http://127.0.0.1:8000 (15071)
+2013-08-20 22:50:48 [15071] [INFO] Using worker: sync
+2013-08-20 22:50:48 [15076] [INFO] Booting worker with pid: 15076
+2013-08-20 22:50:49 [15077] [INFO] Booting worker with pid: 15077
+2013-08-20 22:50:49 [15078] [INFO] Booting worker with pid: 15078
+2013-08-20 22:52:52 [15071] [INFO] Handling signal: term
+2013-08-20 22:52:52 [15077] [INFO] Worker exiting (pid: 15077)
+2013-08-20 22:52:52 [15076] [INFO] Worker exiting (pid: 15076)
+
+2013-08-20 22:52:52 [15078] [INFO] Worker exiting (pid: 15078)
+2013-08-20 22:52:52 [15071] [INFO] Shutting down: Master
+2013-08-20 22:52:54 [15090] [INFO] Starting gunicorn 17.5
+2013-08-20 22:52:54 [15090] [INFO] Listening at: http://127.0.0.1:8000 (15090)
+2013-08-20 22:52:54 [15090] [INFO] Using worker: sync
+2013-08-20 22:52:54 [15095] [INFO] Booting worker with pid: 15095
+2013-08-20 22:52:54 [15096] [INFO] Booting worker with pid: 15096
+2013-08-20 22:52:54 [15097] [INFO] Booting worker with pid: 15097
+2013-08-20 23:02:10 [15090] [INFO] Handling signal: term
+2013-08-20 23:02:10 [15097] [INFO] Worker exiting (pid: 15097)
+2013-08-20 23:02:10 [15095] [INFO] Worker exiting (pid: 15095)
+2013-08-20 23:02:10 [15096] [INFO] Worker exiting (pid: 15096)
+
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+2013-08-20 23:02:10 [15090] [INFO] Shutting down: Master
+2013-08-20 23:02:11 [15106] [INFO] Starting gunicorn 17.5
+2013-08-20 23:02:11 [15106] [INFO] Listening at: http://127.0.0.1:8000 (15106)
+2013-08-20 23:02:11 [15106] [INFO] Using worker: sync
+2013-08-20 23:02:11 [15111] [INFO] Booting worker with pid: 15111
+2013-08-20 23:02:11 [15112] [INFO] Booting worker with pid: 15112
+2013-08-20 23:02:11 [15113] [INFO] Booting worker with pid: 15113
+2013-08-20 23:09:37 [15106] [INFO] Handling signal: term
+2013-08-20 23:09:37 [15111] [INFO] Worker exiting (pid: 15111)
+2013-08-20 23:09:37 [15112] [INFO] Worker exiting (pid: 15112)
+2013-08-20 23:09:37 [15113] [INFO] Worker exiting (pid: 15113)
+media/2013-01-20_11.20.08.jpg
+
+2013-08-20 23:09:37 [15106] [INFO] Shutting down: Master
+2013-08-20 23:09:38 [18612] [INFO] Starting gunicorn 17.5
+2013-08-20 23:09:38 [18612] [INFO] Listening at: http://127.0.0.1:8000 (18612)
+2013-08-20 23:09:38 [18612] [INFO] Using worker: sync
+2013-08-20 23:09:38 [18617] [INFO] Booting worker with pid: 18617
+2013-08-20 23:09:38 [18618] [INFO] Booting worker with pid: 18618
+2013-08-20 23:09:39 [18619] [INFO] Booting worker with pid: 18619
+Internal Server Error: /dogs/1/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/dogs/views.py", line 23, in dog_page
+    return render(request, 'dogs/dog_page.html', {'dog': dog})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 284, in render
+    return nodelist.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/templatetags/i18n.py", line 139, in render
+    result = translation.ungettext(singular, plural, count)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/utils/translation/__init__.py", line 74, in ungettext
+    return _trans.ungettext(singular, plural, number)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/utils/translation/trans_real.py", line 323, in ungettext
+    return do_ntranslate(singular, plural, number, 'ungettext')
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/utils/translation/trans_real.py", line 300, in do_ntranslate
+    return getattr(t, translation_function)(singular, plural, number)
+  File "/usr/lib/python2.7/gettext.py", line 409, in ungettext
+    tmsg = self._catalog[(msgid1, self.plural(n))]
+  File "<string>", line 1, in <lambda>
+TypeError: not all arguments converted during string formatting
+2013-08-20 23:11:05 [18612] [INFO] Handling signal: term
+2013-08-20 23:11:05 [18618] [INFO] Worker exiting (pid: 18618)
+2013-08-20 23:11:05 [18619] [INFO] Worker exiting (pid: 18619)
+2013-08-20 23:11:05 [18617] [INFO] Worker exiting (pid: 18617)
+media/2013-01-20_11.20.08.jpg
+2013-08-20 23:11:05 [18612] [INFO] Shutting down: Master
+2013-08-20 23:11:07 [18626] [INFO] Starting gunicorn 17.5
+2013-08-20 23:11:07 [18626] [INFO] Listening at: http://127.0.0.1:8000 (18626)
+2013-08-20 23:11:07 [18626] [INFO] Using worker: sync
+2013-08-20 23:11:07 [18631] [INFO] Booting worker with pid: 18631
+2013-08-20 23:11:07 [18632] [INFO] Booting worker with pid: 18632
+2013-08-20 23:11:07 [18633] [INFO] Booting worker with pid: 18633
+Internal Server Error: /dogs/1/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/dogs/views.py", line 23, in dog_page
+    return render(request, 'dogs/dog_page.html', {'dog': dog})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 284, in render
+    return nodelist.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/templatetags/i18n.py", line 139, in render
+    result = translation.ungettext(singular, plural, count)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/utils/translation/__init__.py", line 74, in ungettext
+    return _trans.ungettext(singular, plural, number)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/utils/translation/trans_real.py", line 323, in ungettext
+    return do_ntranslate(singular, plural, number, 'ungettext')
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/utils/translation/trans_real.py", line 300, in do_ntranslate
+    return getattr(t, translation_function)(singular, plural, number)
+  File "/usr/lib/python2.7/gettext.py", line 409, in ungettext
+    tmsg = self._catalog[(msgid1, self.plural(n))]
+  File "<string>", line 1, in <lambda>
+TypeError: not all arguments converted during string formatting
+Internal Server Error: /dogs/1/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/dogs/views.py", line 23, in dog_page
+    return render(request, 'dogs/dog_page.html', {'dog': dog})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/templatetags/i18n.py", line 415, in do_block_translate
+    'one keyword argument.' % bits[0])
+TemplateSyntaxError: "count" in u'blocktrans' tag expected exactly one keyword argument.
+2013-08-20 23:53:25 [18626] [INFO] Handling signal: term
+2013-08-20 23:53:25 [18633] [INFO] Worker exiting (pid: 18633)
+2013-08-20 23:53:25 [18632] [INFO] Worker exiting (pid: 18632)
+2013-08-20 23:53:25 [18631] [INFO] Worker exiting (pid: 18631)
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+2013-08-20 23:53:25 [18626] [INFO] Shutting down: Master
+2013-08-20 23:53:27 [32602] [INFO] Starting gunicorn 17.5
+2013-08-20 23:53:27 [32602] [INFO] Listening at: http://127.0.0.1:8000 (32602)
+2013-08-20 23:53:27 [32602] [INFO] Using worker: sync
+2013-08-20 23:53:27 [32607] [INFO] Booting worker with pid: 32607
+2013-08-20 23:53:27 [32608] [INFO] Booting worker with pid: 32608
+2013-08-20 23:53:27 [32609] [INFO] Booting worker with pid: 32609
+Internal Server Error: /dogs/1/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/dogs/views.py", line 23, in dog_page
+    return render(request, 'dogs/dog_page.html', {'dog': dog})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/templatetags/i18n.py", line 456, in do_block_translate
+    raise TemplateSyntaxError("'blocktrans' doesn't allow other block tags (seen %r) inside it" % token.contents)
+TemplateSyntaxError: 'blocktrans' doesn't allow other block tags (seen u'plural') inside it
+2013-08-21 00:04:20 [32602] [INFO] Handling signal: term
+2013-08-21 00:04:20 [32609] [INFO] Worker exiting (pid: 32609)
+2013-08-21 00:04:20 [32608] [INFO] Worker exiting (pid: 32608)
+2013-08-21 00:04:20 [32607] [INFO] Worker exiting (pid: 32607)
+media/2013-01-20_11.20.08.jpg
+2013-08-21 00:04:20 [32602] [INFO] Shutting down: Master
+2013-08-21 00:04:22 [7222] [INFO] Starting gunicorn 17.5
+2013-08-21 00:04:22 [7222] [INFO] Listening at: http://127.0.0.1:8000 (7222)
+2013-08-21 00:04:22 [7222] [INFO] Using worker: sync
+2013-08-21 00:04:22 [7227] [INFO] Booting worker with pid: 7227
+2013-08-21 00:04:22 [7228] [INFO] Booting worker with pid: 7228
+2013-08-21 00:04:22 [7229] [INFO] Booting worker with pid: 7229
+Internal Server Error: /dogs/1/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/dogs/views.py", line 23, in dog_page
+    return render(request, 'dogs/dog_page.html', {'dog': dog})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 903, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/templatetags/i18n.py", line 425, in do_block_translate
+    (bits[0], option))
+TemplateSyntaxError: Unknown argument for u'blocktrans' tag: u'}}{{'.
+2013-08-21 00:05:40 [7222] [INFO] Handling signal: term
+2013-08-21 00:05:40 [7229] [INFO] Worker exiting (pid: 7229)
+2013-08-21 00:05:40 [7227] [INFO] Worker exiting (pid: 7227)
+2013-08-21 00:05:40 [7228] [INFO] Worker exiting (pid: 7228)
+media/2013-01-20_11.20.08.jpg
+2013-08-21 00:05:40 [7222] [INFO] Shutting down: Master
+2013-08-21 00:05:42 [10724] [INFO] Starting gunicorn 17.5
+2013-08-21 00:05:42 [10724] [INFO] Listening at: http://127.0.0.1:8000 (10724)
+2013-08-21 00:05:42 [10724] [INFO] Using worker: sync
+2013-08-21 00:05:42 [10729] [INFO] Booting worker with pid: 10729
+2013-08-21 00:05:42 [10730] [INFO] Booting worker with pid: 10730
+2013-08-21 00:05:42 [10731] [INFO] Booting worker with pid: 10731
+2013-08-21 00:08:12 [10724] [INFO] Handling signal: term
+2013-08-21 00:08:12 [10730] [INFO] Worker exiting (pid: 10730)
+2013-08-21 00:08:12 [10731] [INFO] Worker exiting (pid: 10731)
+media/2013-01-20_11.20.08.jpg
+2013-08-21 00:08:12 [10729] [INFO] Worker exiting (pid: 10729)
+media/2013-01-20_11.20.08.jpg
+2013-08-21 00:08:12 [10724] [INFO] Shutting down: Master
+2013-08-21 00:08:14 [10740] [INFO] Starting gunicorn 17.5
+2013-08-21 00:08:14 [10740] [INFO] Listening at: http://127.0.0.1:8000 (10740)
+2013-08-21 00:08:14 [10740] [INFO] Using worker: sync
+2013-08-21 00:08:14 [10745] [INFO] Booting worker with pid: 10745
+2013-08-21 00:08:14 [10746] [INFO] Booting worker with pid: 10746
+2013-08-21 00:08:14 [10747] [INFO] Booting worker with pid: 10747
+2013-08-21 00:11:31 [10740] [INFO] Handling signal: term
+2013-08-21 00:11:31 [10745] [INFO] Worker exiting (pid: 10745)
+2013-08-21 00:11:31 [10746] [INFO] Worker exiting (pid: 10746)
+2013-08-21 00:11:31 [10747] [INFO] Worker exiting (pid: 10747)
+media/2013-01-20_11.20.08.jpg
+2013-08-21 00:11:31 [10740] [INFO] Shutting down: Master
+2013-08-21 00:11:32 [17740] [INFO] Starting gunicorn 17.5
+2013-08-21 00:11:32 [17740] [INFO] Listening at: http://127.0.0.1:8000 (17740)
+2013-08-21 00:11:32 [17740] [INFO] Using worker: sync
+2013-08-21 00:11:32 [17745] [INFO] Booting worker with pid: 17745
+2013-08-21 00:11:32 [17746] [INFO] Booting worker with pid: 17746
+2013-08-21 00:11:32 [17747] [INFO] Booting worker with pid: 17747
+2013-08-21 16:19:31 [17740] [INFO] Handling signal: term
+2013-08-21 16:19:31 [17745] [INFO] Worker exiting (pid: 17745)
+2013-08-21 16:19:31 [17747] [INFO] Worker exiting (pid: 17747)
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+2013-08-21 16:19:31 [17746] [INFO] Worker exiting (pid: 17746)
+2013-08-21 16:19:31 [17740] [INFO] Shutting down: Master
+2013-08-21 16:19:33 [21572] [INFO] Starting gunicorn 17.5
+2013-08-21 16:19:33 [21572] [INFO] Listening at: http://127.0.0.1:8000 (21572)
+2013-08-21 16:19:33 [21572] [INFO] Using worker: sync
+2013-08-21 16:19:33 [21577] [INFO] Booting worker with pid: 21577
+2013-08-21 16:19:33 [21578] [INFO] Booting worker with pid: 21578
+2013-08-21 16:19:33 [21579] [INFO] Booting worker with pid: 21579
+2013-08-21 16:22:50 [21572] [INFO] Handling signal: term
+2013-08-21 16:22:50 [21579] [INFO] Worker exiting (pid: 21579)
+2013-08-21 16:22:50 [21577] [INFO] Worker exiting (pid: 21577)
+
+2013-08-21 16:22:50 [21578] [INFO] Worker exiting (pid: 21578)
+2013-08-21 16:22:50 [21572] [INFO] Shutting down: Master
+2013-08-21 16:22:51 [25073] [INFO] Starting gunicorn 17.5
+2013-08-21 16:22:51 [25073] [INFO] Listening at: http://127.0.0.1:8000 (25073)
+2013-08-21 16:22:51 [25073] [INFO] Using worker: sync
+2013-08-21 16:22:51 [25078] [INFO] Booting worker with pid: 25078
+2013-08-21 16:22:51 [25079] [INFO] Booting worker with pid: 25079
+2013-08-21 16:22:52 [25080] [INFO] Booting worker with pid: 25080
+2013-08-21 16:25:45 [25073] [INFO] Handling signal: term
+2013-08-21 16:25:45 [25080] [INFO] Worker exiting (pid: 25080)
+2013-08-21 16:25:45 [25079] [INFO] Worker exiting (pid: 25079)
+
+2013-08-21 16:25:45 [25078] [INFO] Worker exiting (pid: 25078)
+2013-08-21 16:25:45 [25073] [INFO] Shutting down: Master
+2013-08-21 16:25:46 [25087] [INFO] Starting gunicorn 17.5
+2013-08-21 16:25:46 [25087] [INFO] Listening at: http://127.0.0.1:8000 (25087)
+2013-08-21 16:25:46 [25087] [INFO] Using worker: sync
+2013-08-21 16:25:46 [25092] [INFO] Booting worker with pid: 25092
+2013-08-21 16:25:46 [25093] [INFO] Booting worker with pid: 25093
+2013-08-21 16:25:46 [25094] [INFO] Booting worker with pid: 25094
+2013-08-21 16:46:33 [25087] [INFO] Handling signal: term
+2013-08-21 16:46:33 [25094] [INFO] Worker exiting (pid: 25094)
+2013-08-21 16:46:33 [25092] [INFO] Worker exiting (pid: 25092)
+
+
+2013-08-21 16:46:33 [25093] [INFO] Worker exiting (pid: 25093)
+
+
+2013-08-21 16:46:33 [25087] [INFO] Shutting down: Master
+2013-08-21 16:46:35 [28595] [INFO] Starting gunicorn 17.5
+2013-08-21 16:46:35 [28595] [INFO] Listening at: http://127.0.0.1:8000 (28595)
+2013-08-21 16:46:35 [28595] [INFO] Using worker: sync
+2013-08-21 16:46:35 [28600] [INFO] Booting worker with pid: 28600
+2013-08-21 16:46:35 [28601] [INFO] Booting worker with pid: 28601
+2013-08-21 16:46:35 [28602] [INFO] Booting worker with pid: 28602
+2013-08-21 16:48:08 [28595] [INFO] Handling signal: term
+2013-08-21 16:48:08 [28600] [INFO] Worker exiting (pid: 28600)
+2013-08-21 16:48:08 [28602] [INFO] Worker exiting (pid: 28602)
+media/2013-01-20_11.20.08.jpg
+2013-08-21 16:48:08 [28601] [INFO] Worker exiting (pid: 28601)
+
+2013-08-21 16:48:08 [28595] [INFO] Shutting down: Master
+2013-08-21 16:48:09 [28612] [INFO] Starting gunicorn 17.5
+2013-08-21 16:48:09 [28612] [INFO] Listening at: http://127.0.0.1:8000 (28612)
+2013-08-21 16:48:09 [28612] [INFO] Using worker: sync
+2013-08-21 16:48:09 [28617] [INFO] Booting worker with pid: 28617
+2013-08-21 16:48:09 [28618] [INFO] Booting worker with pid: 28618
+2013-08-21 16:48:09 [28619] [INFO] Booting worker with pid: 28619
+2013-08-21 17:15:21 [28612] [INFO] Handling signal: term
+2013-08-21 17:15:21 [28618] [INFO] Worker exiting (pid: 28618)
+2013-08-21 17:15:21 [28619] [INFO] Worker exiting (pid: 28619)
+2013-08-21 17:15:21 [28617] [INFO] Worker exiting (pid: 28617)
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+2013-08-21 17:15:21 [28612] [INFO] Shutting down: Master
+2013-08-21 17:15:22 [32121] [INFO] Starting gunicorn 17.5
+2013-08-21 17:15:22 [32121] [INFO] Listening at: http://127.0.0.1:8000 (32121)
+2013-08-21 17:15:22 [32121] [INFO] Using worker: sync
+2013-08-21 17:15:22 [32126] [INFO] Booting worker with pid: 32126
+2013-08-21 17:15:22 [32127] [INFO] Booting worker with pid: 32127
+2013-08-21 17:15:22 [32128] [INFO] Booting worker with pid: 32128
+2013-08-21 17:23:53 [32121] [INFO] Handling signal: term
+2013-08-21 17:23:53 [32127] [INFO] Worker exiting (pid: 32127)
+2013-08-21 17:23:53 [32128] [INFO] Worker exiting (pid: 32128)
+2013-08-21 17:23:53 [32126] [INFO] Worker exiting (pid: 32126)
+2013-08-21 17:23:54 [32121] [INFO] Shutting down: Master
+2013-08-21 17:23:55 [3255] [INFO] Starting gunicorn 17.5
+2013-08-21 17:23:55 [3255] [INFO] Listening at: http://127.0.0.1:8000 (3255)
+2013-08-21 17:23:55 [3255] [INFO] Using worker: sync
+2013-08-21 17:23:55 [3260] [INFO] Booting worker with pid: 3260
+2013-08-21 17:23:55 [3261] [INFO] Booting worker with pid: 3261
+2013-08-21 17:23:55 [3262] [INFO] Booting worker with pid: 3262
+2013-08-21 17:35:27 [3255] [INFO] Handling signal: term
+2013-08-21 17:35:27 [3261] [INFO] Worker exiting (pid: 3261)
+2013-08-21 17:35:27 [3260] [INFO] Worker exiting (pid: 3260)
+2013-08-21 17:35:27 [3262] [INFO] Worker exiting (pid: 3262)
+2013-08-21 17:35:27 [3255] [INFO] Shutting down: Master
+2013-08-21 17:35:29 [3275] [INFO] Starting gunicorn 17.5
+2013-08-21 17:35:29 [3275] [INFO] Listening at: http://127.0.0.1:8000 (3275)
+2013-08-21 17:35:29 [3275] [INFO] Using worker: sync
+2013-08-21 17:35:29 [3280] [INFO] Booting worker with pid: 3280
+2013-08-21 17:35:29 [3281] [INFO] Booting worker with pid: 3281
+2013-08-21 17:35:29 [3282] [INFO] Booting worker with pid: 3282
+Internal Server Error: /puppies/2/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/puppies/views.py", line 10, in litter
+    litter = Puppies.objects.get(id=puppies_id)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/db/models/manager.py", line 143, in get
+    return self.get_query_set().get(*args, **kwargs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 382, in get
+    num = len(clone)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 90, in __len__
+    self._result_cache = list(self.iterator())
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 301, in iterator
+    for row in compiler.results_iter():
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 775, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 840, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/db/backends/util.py", line 41, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 128, in execute
+    six.reraise(utils.DatabaseError, utils.DatabaseError(*tuple(e.args)), sys.exc_info()[2])
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 120, in execute
+    return self.cursor.execute(query, args)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+DatabaseError: (1054, "Unknown column 'puppies_puppies.mother_title' in 'field list'")
+2013-08-21 17:49:38 [3275] [INFO] Handling signal: term
+2013-08-21 17:49:38 [3282] [INFO] Worker exiting (pid: 3282)
+2013-08-21 17:49:38 [3280] [INFO] Worker exiting (pid: 3280)
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+2013-08-21 17:49:38 [3281] [INFO] Worker exiting (pid: 3281)
+2013-08-21 17:49:38 [3275] [INFO] Shutting down: Master
+2013-08-21 17:49:40 [6789] [INFO] Starting gunicorn 17.5
+2013-08-21 17:49:40 [6789] [INFO] Listening at: http://127.0.0.1:8000 (6789)
+2013-08-21 17:49:40 [6789] [INFO] Using worker: sync
+2013-08-21 17:49:40 [6794] [INFO] Booting worker with pid: 6794
+2013-08-21 17:49:40 [6795] [INFO] Booting worker with pid: 6795
+2013-08-21 17:49:40 [6796] [INFO] Booting worker with pid: 6796
+Internal Server Error: /puppies/1/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/puppies/views.py", line 11, in litter
+    return render(request, 'puppies/litter.html', {'litter': litter})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 180, in do_block
+    raise TemplateSyntaxError("'%s' tag takes only one argument" % bits[0])
+TemplateSyntaxError: 'block' tag takes only one argument
+Internal Server Error: /offsprings/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/offsprings/views.py", line 7, in offsprings
+    return render(request, 'offsprings/offsprings.html', {'offsprings': offsprings})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 327, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'trans', expected 'endblock'
+2013-08-21 18:25:04 [6789] [INFO] Handling signal: term
+2013-08-21 18:25:04 [6794] [INFO] Worker exiting (pid: 6794)
+2013-08-21 18:25:04 [6795] [INFO] Worker exiting (pid: 6795)
+2013-08-21 18:25:04 [6796] [INFO] Worker exiting (pid: 6796)
+2013-08-21 18:25:05 [6789] [INFO] Shutting down: Master
+2013-08-21 18:25:06 [10302] [INFO] Starting gunicorn 17.5
+2013-08-21 18:25:06 [10302] [INFO] Listening at: http://127.0.0.1:8000 (10302)
+2013-08-21 18:25:06 [10302] [INFO] Using worker: sync
+2013-08-21 18:25:06 [10307] [INFO] Booting worker with pid: 10307
+2013-08-21 18:25:06 [10308] [INFO] Booting worker with pid: 10308
+2013-08-21 18:25:06 [10309] [INFO] Booting worker with pid: 10309
+2013-08-21 18:27:46 [10302] [INFO] Handling signal: term
+2013-08-21 18:27:46 [10307] [INFO] Worker exiting (pid: 10307)
+2013-08-21 18:27:46 [10308] [INFO] Worker exiting (pid: 10308)
+2013-08-21 18:27:46 [10309] [INFO] Worker exiting (pid: 10309)
+2013-08-21 18:27:46 [10302] [INFO] Shutting down: Master
+2013-08-21 18:27:47 [10318] [INFO] Starting gunicorn 17.5
+2013-08-21 18:27:47 [10318] [INFO] Listening at: http://127.0.0.1:8000 (10318)
+2013-08-21 18:27:47 [10318] [INFO] Using worker: sync
+2013-08-21 18:27:47 [10323] [INFO] Booting worker with pid: 10323
+2013-08-21 18:27:48 [10324] [INFO] Booting worker with pid: 10324
+2013-08-21 18:27:48 [10325] [INFO] Booting worker with pid: 10325
+Internal Server Error: /gallery/albums/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/gallery/views.py", line 20, in albums
+    return render(request,'gallery/albums.html', {'albums': albums})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 767, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 327, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'blocktrans', expected 'empty' \u0438\u043b\u0438 'endfor'
+2013-08-21 21:20:47 [10318] [INFO] Handling signal: term
+2013-08-21 21:20:47 [10323] [INFO] Worker exiting (pid: 10323)
+
+2013-08-21 21:20:47 [10324] [INFO] Worker exiting (pid: 10324)
+2013-08-21 21:20:47 [10325] [INFO] Worker exiting (pid: 10325)
+media/2013-01-20_11.20.08.jpg
+media/2013-01-20_11.20.08.jpg
+thumbnails
+2013-08-21 21:20:47 [10318] [INFO] Shutting down: Master
+2013-08-21 21:20:49 [17198] [INFO] Starting gunicorn 17.5
+2013-08-21 21:20:49 [17198] [INFO] Listening at: http://127.0.0.1:8000 (17198)
+2013-08-21 21:20:49 [17198] [INFO] Using worker: sync
+2013-08-21 21:20:49 [17203] [INFO] Booting worker with pid: 17203
+2013-08-21 21:20:49 [17204] [INFO] Booting worker with pid: 17204
+2013-08-21 21:20:49 [17205] [INFO] Booting worker with pid: 17205
+Internal Server Error: /gallery/1/thumbnails/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/gallery/views.py", line 39, in album
+    return render(request, 'gallery/album.html', {'album': album, 'images': images, 'view': view})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 327, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'trans', expected 'endblock'
+2013-08-21 21:23:30 [17198] [INFO] Handling signal: term
+2013-08-21 21:23:30 [17205] [INFO] Worker exiting (pid: 17205)
+2013-08-21 21:23:30 [17203] [INFO] Worker exiting (pid: 17203)
+2013-08-21 21:23:30 [17204] [INFO] Worker exiting (pid: 17204)
+thumbnails
+thumbnails
+thumbnails
+full
+2013-08-21 21:23:30 [17198] [INFO] Shutting down: Master
+2013-08-21 21:23:31 [20719] [INFO] Starting gunicorn 17.5
+2013-08-21 21:23:31 [20719] [INFO] Listening at: http://127.0.0.1:8000 (20719)
+2013-08-21 21:23:31 [20719] [INFO] Using worker: sync
+2013-08-21 21:23:31 [20724] [INFO] Booting worker with pid: 20724
+2013-08-21 21:23:31 [20725] [INFO] Booting worker with pid: 20725
+2013-08-21 21:23:32 [20726] [INFO] Booting worker with pid: 20726
+Internal Server Error: /gallery/1/full/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/gallery/views.py", line 39, in album
+    return render(request, 'gallery/album.html', {'album': album, 'images': images, 'view': view})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/templatetags/i18n.py", line 405, in do_block_translate
+    'than once.' % option)
+TemplateSyntaxError: The u'with' option was specified more than once.
+Internal Server Error: /gallery/1/full/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/gallery/views.py", line 39, in album
+    return render(request, 'gallery/album.html', {'album': album, 'images': images, 'view': view})
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/templatetags/i18n.py", line 425, in do_block_translate
+    (bits[0], option))
+TemplateSyntaxError: Unknown argument for u'blocktrans' tag: u'images.paginator.num_pages'.
+2013-08-21 21:25:54 [20719] [INFO] Handling signal: term
+2013-08-21 21:25:54 [20724] [INFO] Worker exiting (pid: 20724)
+2013-08-21 21:25:54 [20725] [INFO] Worker exiting (pid: 20725)
+2013-08-21 21:25:54 [20726] [INFO] Worker exiting (pid: 20726)
+full
+full
+full
+thumbnails
+2013-08-21 21:25:55 [20719] [INFO] Shutting down: Master
+2013-08-21 21:25:56 [24229] [INFO] Starting gunicorn 17.5
+2013-08-21 21:25:56 [24229] [INFO] Listening at: http://127.0.0.1:8000 (24229)
+2013-08-21 21:25:56 [24229] [INFO] Using worker: sync
+2013-08-21 21:25:56 [24234] [INFO] Booting worker with pid: 24234
+2013-08-21 21:25:56 [24235] [INFO] Booting worker with pid: 24235
+2013-08-21 21:25:56 [24236] [INFO] Booting worker with pid: 24236
+2013-08-21 21:26:23 [24229] [INFO] Handling signal: term
+2013-08-21 21:26:23 [24236] [INFO] Worker exiting (pid: 24236)
+2013-08-21 21:26:23 [24234] [INFO] Worker exiting (pid: 24234)
+2013-08-21 21:26:23 [24235] [INFO] Worker exiting (pid: 24235)
+thumbnails
+2013-08-21 21:26:23 [24229] [INFO] Shutting down: Master
+2013-08-21 21:26:25 [24245] [INFO] Starting gunicorn 17.5
+2013-08-21 21:26:25 [24245] [INFO] Listening at: http://127.0.0.1:8000 (24245)
+2013-08-21 21:26:25 [24245] [INFO] Using worker: sync
+2013-08-21 21:26:25 [24250] [INFO] Booting worker with pid: 24250
+2013-08-21 21:26:25 [24251] [INFO] Booting worker with pid: 24251
+2013-08-21 21:26:25 [24252] [INFO] Booting worker with pid: 24252
+Internal Server Error: /contacts/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = response.render()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/response.py", line 80, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/response.py", line 56, in resolve_template
+    return loader.select_template(template)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 188, in select_template
+    return get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/templatetags/i18n.py", line 358, in do_translate
+    value, noop, asvar, message_context = TranslateParser(token.contents).top()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/templatetags/i18n.py", line 355, in top
+    "Only options for 'trans' are 'noop', " \
+TemplateSyntaxError: Only options for 'trans' are 'noop', 'context "xxx"', and 'as VAR'.
+2013-08-21 21:29:33 [24245] [INFO] Handling signal: term
+2013-08-21 21:29:33 [24250] [INFO] Worker exiting (pid: 24250)
+2013-08-21 21:29:33 [24252] [INFO] Worker exiting (pid: 24252)
+2013-08-21 21:29:33 [24251] [INFO] Worker exiting (pid: 24251)
+thumbnails
+2013-08-21 21:29:33 [24245] [INFO] Shutting down: Master
+2013-08-21 21:29:35 [27755] [INFO] Starting gunicorn 17.5
+2013-08-21 21:29:35 [27755] [INFO] Listening at: http://127.0.0.1:8000 (27755)
+2013-08-21 21:29:35 [27755] [INFO] Using worker: sync
+2013-08-21 21:29:35 [27760] [INFO] Booting worker with pid: 27760
+2013-08-21 21:29:35 [27761] [INFO] Booting worker with pid: 27761
+2013-08-21 21:29:35 [27762] [INFO] Booting worker with pid: 27762
+2013-08-21 21:29:59 [27755] [INFO] Handling signal: term
+2013-08-21 21:29:59 [27760] [INFO] Worker exiting (pid: 27760)
+2013-08-21 21:29:59 [27761] [INFO] Worker exiting (pid: 27761)
+2013-08-21 21:29:59 [27762] [INFO] Worker exiting (pid: 27762)
+2013-08-21 21:29:59 [27755] [INFO] Shutting down: Master
+2013-08-21 21:30:01 [27771] [INFO] Starting gunicorn 17.5
+2013-08-21 21:30:01 [27771] [INFO] Listening at: http://127.0.0.1:8000 (27771)
+2013-08-21 21:30:01 [27771] [INFO] Using worker: sync
+2013-08-21 21:30:01 [27776] [INFO] Booting worker with pid: 27776
+2013-08-21 21:30:01 [27777] [INFO] Booting worker with pid: 27777
+2013-08-21 21:30:01 [27778] [INFO] Booting worker with pid: 27778
+2013-08-21 21:34:02 [27771] [INFO] Handling signal: term
+2013-08-21 21:34:02 [27776] [INFO] Worker exiting (pid: 27776)
+2013-08-21 21:34:02 [27777] [INFO] Worker exiting (pid: 27777)
+2013-08-21 21:34:02 [27778] [INFO] Worker exiting (pid: 27778)
+2013-08-21 21:34:02 [27771] [INFO] Shutting down: Master
+2013-08-21 21:34:03 [31286] [INFO] Starting gunicorn 17.5
+2013-08-21 21:34:03 [31286] [INFO] Listening at: http://127.0.0.1:8000 (31286)
+2013-08-21 21:34:03 [31286] [INFO] Using worker: sync
+2013-08-21 21:34:03 [31291] [INFO] Booting worker with pid: 31291
+2013-08-21 21:34:03 [31292] [INFO] Booting worker with pid: 31292
+2013-08-21 21:34:03 [31293] [INFO] Booting worker with pid: 31293
+2013-08-21 21:35:36 [31286] [INFO] Handling signal: term
+2013-08-21 21:35:36 [31291] [INFO] Worker exiting (pid: 31291)
+2013-08-21 21:35:36 [31292] [INFO] Worker exiting (pid: 31292)
+2013-08-21 21:35:36 [31293] [INFO] Worker exiting (pid: 31293)
+2013-08-21 21:35:36 [31286] [INFO] Shutting down: Master
+2013-08-21 21:35:37 [31302] [INFO] Starting gunicorn 17.5
+2013-08-21 21:35:37 [31302] [INFO] Listening at: http://127.0.0.1:8000 (31302)
+2013-08-21 21:35:37 [31302] [INFO] Using worker: sync
+2013-08-21 21:35:37 [31307] [INFO] Booting worker with pid: 31307
+2013-08-21 21:35:37 [31308] [INFO] Booting worker with pid: 31308
+2013-08-21 21:35:37 [31310] [INFO] Booting worker with pid: 31310
+Internal Server Error: /history/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = response.render()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/response.py", line 80, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/response.py", line 56, in resolve_template
+    return loader.select_template(template)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 188, in select_template
+    return get_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/template/base.py", line 327, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'trans', expected 'endblock'
+2013-08-21 21:37:00 [31302] [INFO] Handling signal: term
+2013-08-21 21:37:00 [31307] [INFO] Worker exiting (pid: 31307)
+2013-08-21 21:37:00 [31310] [INFO] Worker exiting (pid: 31310)
+2013-08-21 21:37:00 [31308] [INFO] Worker exiting (pid: 31308)
+thumbnails
+2013-08-21 21:37:00 [31302] [INFO] Shutting down: Master
+2013-08-21 21:37:01 [31318] [INFO] Starting gunicorn 17.5
+2013-08-21 21:37:01 [31318] [INFO] Listening at: http://127.0.0.1:8000 (31318)
+2013-08-21 21:37:01 [31318] [INFO] Using worker: sync
+2013-08-21 21:37:01 [31323] [INFO] Booting worker with pid: 31323
+2013-08-21 21:37:02 [31324] [INFO] Booting worker with pid: 31324
+2013-08-21 21:37:02 [31325] [INFO] Booting worker with pid: 31325
+2013-08-21 23:08:38 [31318] [INFO] Handling signal: term
+2013-08-21 23:08:38 [31323] [INFO] Worker exiting (pid: 31323)
+2013-08-21 23:08:38 [31324] [INFO] Worker exiting (pid: 31324)
+2013-08-21 23:08:38 [31325] [INFO] Worker exiting (pid: 31325)
+
+media/2013-01-20_11.20.08.jpg
+
+
+media/2013-01-20_11.20.08.jpg
+2013-08-21 23:08:39 [31318] [INFO] Shutting down: Master
+2013-08-21 23:08:40 [31334] [INFO] Starting gunicorn 17.5
+2013-08-21 23:08:40 [31334] [INFO] Listening at: http://127.0.0.1:8000 (31334)
+2013-08-21 23:08:40 [31334] [INFO] Using worker: sync
+2013-08-21 23:08:40 [31339] [INFO] Booting worker with pid: 31339
+2013-08-21 23:08:40 [31340] [INFO] Booting worker with pid: 31340
+2013-08-21 23:08:40 [31341] [INFO] Booting worker with pid: 31341
+2013-08-21 23:12:22 [31334] [INFO] Handling signal: term
+2013-08-21 23:12:22 [31340] [INFO] Worker exiting (pid: 31340)
+2013-08-21 23:12:22 [31339] [INFO] Worker exiting (pid: 31339)
+2013-08-21 23:12:22 [31341] [INFO] Worker exiting (pid: 31341)
+2013-08-21 23:12:22 [31334] [INFO] Shutting down: Master
+2013-08-21 23:12:24 [31347] [INFO] Starting gunicorn 17.5
+2013-08-21 23:12:24 [31347] [INFO] Listening at: http://127.0.0.1:8000 (31347)
+2013-08-21 23:12:24 [31347] [INFO] Using worker: sync
+2013-08-21 23:12:24 [31352] [INFO] Booting worker with pid: 31352
+2013-08-21 23:12:24 [31353] [INFO] Booting worker with pid: 31353
+2013-08-21 23:12:24 [31354] [INFO] Booting worker with pid: 31354
+Internal Server Error: /puppies/
+Traceback (most recent call last):
+  File "/home/leval/web/kennel/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/leval/web/kennel/puppies/views.py", line 8, in puppies
+    paginator = Paginator(puppies, 5)
+NameError: global name 'Paginator' is not defined
+2013-08-21 23:12:52 [31347] [INFO] Handling signal: term
+2013-08-21 23:12:52 [31352] [INFO] Worker exiting (pid: 31352)
+2013-08-21 23:12:52 [31353] [INFO] Worker exiting (pid: 31353)
+2013-08-21 23:12:52 [31354] [INFO] Worker exiting (pid: 31354)
+2013-08-21 23:12:52 [31347] [INFO] Shutting down: Master
+2013-08-21 23:12:54 [31359] [INFO] Starting gunicorn 17.5
+2013-08-21 23:12:54 [31359] [INFO] Listening at: http://127.0.0.1:8000 (31359)
+2013-08-21 23:12:54 [31359] [INFO] Using worker: sync
+2013-08-21 23:12:54 [31364] [INFO] Booting worker with pid: 31364
+2013-08-21 23:12:54 [31365] [INFO] Booting worker with pid: 31365
+2013-08-21 23:12:54 [31366] [INFO] Booting worker with pid: 31366
+2013-08-21 23:34:11 [31359] [INFO] Handling signal: term
+2013-08-21 23:34:11 [31366] [INFO] Worker exiting (pid: 31366)
+2013-08-21 23:34:11 [31364] [INFO] Worker exiting (pid: 31364)
+2013-08-21 23:34:11 [31365] [INFO] Worker exiting (pid: 31365)
+2013-08-21 23:34:11 [31359] [INFO] Shutting down: Master
+2013-08-21 23:34:12 [31428] [INFO] Starting gunicorn 17.5
+2013-08-21 23:34:12 [31428] [INFO] Listening at: http://127.0.0.1:8000 (31428)
+2013-08-21 23:34:12 [31428] [INFO] Using worker: sync
+2013-08-21 23:34:12 [31433] [INFO] Booting worker with pid: 31433
+2013-08-21 23:34:12 [31434] [INFO] Booting worker with pid: 31434
+2013-08-21 23:34:12 [31435] [INFO] Booting worker with pid: 31435

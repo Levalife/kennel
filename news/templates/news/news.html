@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load thumbnail %}
+{% block title %}{{ news.title }}{% endblock %}
+
+{% block content %}
+
+<h3>{{ news.title }}</h3>
+<p><small>{{ news.pub_date }}</small></p>
+<center>
+<a href='{{ MEDIA_URL}}{{news.photo}}' rel="prettyPhoto[pp_gal]"><img src='{{ MEDIA_URL}}{{news.photo}}' width=600 heigth=600 class='img-rounded'></a></center>
+<p>{{ news.body }}</p>
+	
+{% if news.gallery.id %}
+<h3><a href="{% url 'gallery:album' news.gallery.id 'thumbnails' %}">{{ news.gallery.title }} </a> ({{ news.gallery.image_set.count }} images)</h3>
+		<ul>
+		{% for img in news.gallery.image_set.all %}
+			{% thumbnail img '200x200' crop='center' as im %}
+			<a href="{{ MEDIA_URL }}{{ img }}" rel="prettyPhoto[pp_gal]"><img src='{{ im.url }}' alt="{{ im.title }}" width="{{ im.width }}" height="{{ im.height }}" class='img-rounded'></a>
+			{% endthumbnail %}
+		{% endfor %}
+		</ul>
+{% endif %}
+{% endblock %}

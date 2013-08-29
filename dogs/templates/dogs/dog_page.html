@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{{ dog.name }}{% endblock %}
+{% load thumbnail %}
+{% block content %}
+
+	<center>
+	<h3>{{ dog.name }}</h3>
+	{% if dog.mother %} 
+	<b>{% trans 'Mother' %}:</b> {{ dog.mother }} x <b>{% trans 'Father' %}:</b> {{ dog.father }}
+	{% endif %} <br/>
+	{% if dog.breeder %}
+	<p><b>{% trans 'Breeder' %}:</b> {{ dog.breeder }}</p>
+	{% endif %}
+
+	{% if dog.photo %}
+		<p><img src="{{ MEDIA_URL}}{{ dog.photo }}" width=500 heigth=500/></p>
+	{% else %}
+		<img src="{{MEDIA_URL}}media/siluet_sobaki.jpg" wodth=200 height=200/>
+	{% endif %}
+	</center>
+
+	{% if dog.sex %}
+	<p><b>{% trans 'Sex' %}:</b> {{ dog.sex }} </p>
+	{% endif %}
+
+	{% if dog.birthday %}
+	<p><b>{% trans 'Birthday' %}:</b> {{ dog.birthday }} </p>
+	{% endif %}
+
+	{% if dog.pedigree %}
+	<p><a href={{ dog.pedigree }}>{% trans 'Pedigree' %} </a></p>
+	{% endif %}
+	{% if dog.hd or dog.mdr1 or dog.dm %}
+	<p><b>{% trans 'Health' %}</b>
+	{% endif %}
+	{% if dog.hd %}
+	ED/HD: {{ dog.hd }},
+	{% endif %}
+
+	{% if dog.mdr1 %}
+	MDR1 {{ dog.mdr1 }},
+	{% endif %}
+
+	{% if dog.dm %}
+	DM {{ dog.dm }}</p>
+	{% endif %}
+
+	{% if dog.titles %}
+	<p><b>{% trans 'Entitlements' %}:</b> {{ dog.titles }}</p>
+	{% endif %}
+
+	{% if dog.training %}
+	<p><b>{% trans 'Achievements' %}:</b> {{ dog.training }}</p>
+	{% endif %}
+
+	{% if dog.about_dog %}
+	<p><b>{% trans 'About dog' %}:</b> {{ dog.about_dog }}</p>
+	{% endif %}
+
+	{% if dog.gallery.id %}
+	<h3><a href="{% url 'gallery:album' dog.gallery.id 'thumbnails' %}">{{ dog.gallery.title }} </a> ({{ dog.gallery.image_set.count }} {% blocktrans count dog.gallery.image_set.count as counter %}image{% plural %}images{% endblocktrans %})</h3>
+		<ul>
+		{% for img in dog.gallery.image_set.all %}
+			{% thumbnail img '200x200' crop='center' as im %}
+			<a href="{{ MEDIA_URL }}{{ img }}" rel="prettyPhoto[pp_gal]"><img src='{{ im.url }}' alt="{{ im.title }}" width="{{ im.width }}" height="{{ im.height }}" class='img-rounded'></a>
+			{% endthumbnail %}
+		{% endfor %}
+		</ul>
+	{% endif %}
+
+{% endblock %}

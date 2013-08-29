@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title  %}{% trans 'Our puppies' %}{% endblock %}
+{% block content %}
+{% for pupp in page_puppies %}
+	<center>
+	<h3><a href="{% url 'puppies:litter' pupp.id %}">{% trans 'Litter' %} {{ pupp.litter }}</a></3>
+	<h2>{% trans 'Mother' %}: {{ pupp.mother }} x {% trans 'Father' %}: {{ pupp.father }}</h2>
+	<h5>{% trans 'Birthday' %}: {{ pupp.birthday }}</h5>
+	<h5>{% trans 'Amount' %}: {{ pupp.amount }}</h5>
+	
+	
+	{% if pupp.mother_photo %}
+	<img src="{{ MEDIA_URL }}{{ pupp.mother_photo }}" width=400 height=400>
+
+	{% endif %}
+	{% if pupp.father_photo %}
+	<img src="{{ MEDIA_URL }}{{ pupp.father_photo }}" width=400 height=400>
+	{% endif %}
+	</center>
+	<br/>
+	<br/>
+	<div class='row-fluid'>
+		<div class='offset10'><a href="{% url 'puppies:litter' pupp.id %}">{% trans 'More'%}...</a></div>
+	</div>
+{% endfor %}
+
+ <div class='pagination'>
+  <span class="step-links">
+    <div class='pagination-current'>
+            {% blocktrans with page_puppies.number as page_puppies.number and page_puppies.paginator.num_pages as page_puppies.paginator.num_pages %}Page {{ page_puppies.number }} of {{ page_puppies.paginator.num_pages }}{% endblocktrans %}
+    </div>
+
+
+    {% if page_puppies.has_previous %}
+      <a class="pagination-control left" href="?page={{ page_puppies.previous_page_number }}">&lsaquo;</a>
+    {% endif %}
+
+      
+    {% if page_puppies.has_next %}
+      <a class="pagination-control right" href="?page={{ page_puppies.next_page_number }}">&rsaquo;</a>
+    {% endif %}
+    </span>
+</div>
+{% endblock %}

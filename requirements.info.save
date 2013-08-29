@@ -1,0 +1,6 @@
+django
+south
+pillow
+sorl-thumbnail
+django-simple-captcpsycopg2
+django-localeurl
