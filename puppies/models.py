@@ -18,7 +18,7 @@ class Puppies(models.Model):
 	father_health = models.CharField(max_length=100, blank=True)
 	father_titles = models.CharField(max_length=200, blank=True)
 	father_training = models.CharField(max_length=100, blank=True)
-	birthday = models.CharField(max_length=80, blank=True)
+	birthday = models.DateField(blank=True)
 	amount = models.CharField(max_length=40, blank=True)
 	gallery = models.ForeignKey(Album, blank=True, null=True)
 

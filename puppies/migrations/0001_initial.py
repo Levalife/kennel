@@ -15,14 +15,18 @@ class Migration(SchemaMigration):
             ('mother', self.gf('django.db.models.fields.CharField')(max_length=100)),
             ('mother_photo', self.gf('django.db.models.fields.files.ImageField')(max_length=100, blank=True)),
             ('mother_pedigree', self.gf('django.db.models.fields.URLField')(max_length=100, blank=True)),
-            ('mother_health', self.gf('django.db.models.fields.CharField')(max_length=100, blank=True)),
+            ('mother_health', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
+            ('mother_titles', self.gf('django.db.models.fields.CharField')(max_length=100, blank=True)),
+            ('mother_training', self.gf('django.db.models.fields.CharField')(max_length=100, blank=True)),
             ('father', self.gf('django.db.models.fields.CharField')(max_length=100)),
             ('father_photo', self.gf('django.db.models.fields.files.ImageField')(max_length=100, blank=True)),
             ('father_pedigree', self.gf('django.db.models.fields.URLField')(max_length=100, blank=True)),
             ('father_health', self.gf('django.db.models.fields.CharField')(max_length=100, blank=True)),
-            ('birthday', self.gf('django.db.models.fields.CharField')(max_length=80, blank=True)),
+            ('father_titles', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
+            ('father_training', self.gf('django.db.models.fields.CharField')(max_length=100, blank=True)),
+            ('birthday', self.gf('django.db.models.fields.DateField')(blank=True)),
             ('amount', self.gf('django.db.models.fields.CharField')(max_length=40, blank=True)),
-            ('gallery', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['gallery.Album'])),
+            ('gallery', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['gallery.Album'], null=True, blank=True)),
         ))
         db.send_create_signal(u'puppies', ['Puppies'])
 
@@ -42,18 +46,22 @@ class Migration(SchemaMigration):
         u'puppies.puppies': {
             'Meta': {'object_name': 'Puppies'},
             'amount': ('django.db.models.fields.CharField', [], {'max_length': '40', 'blank': 'True'}),
-            'birthday': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}),
+            'birthday': ('django.db.models.fields.DateField', [], {'blank': 'True'}),
             'father': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
             'father_health': ('django.db.models.fields.CharField', [], {'max_length': '100', 'blank': 'True'}),
             'father_pedigree': ('django.db.models.fields.URLField', [], {'max_length': '100', 'blank': 'True'}),
             'father_photo': ('django.db.models.fields.files.ImageField', [], {'max_length': '100', 'blank': 'True'}),
-            'gallery': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['gallery.Album']"}),
+            'father_titles': ('django.db.models.fields.CharField', [], {'max_length': '200', 'blank': 'True'}),
+            'father_training': ('django.db.models.fields.CharField', [], {'max_length': '100', 'blank': 'True'}),
+            'gallery': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['gallery.Album']", 'null': 'True', 'blank': 'True'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'litter': ('django.db.models.fields.CharField', [], {'max_length': '15'}),
             'mother': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
-            'mother_health': ('django.db.models.fields.CharField', [], {'max_length': '100', 'blank': 'True'}),
+            'mother_health': ('django.db.models.fields.CharField', [], {'max_length': '200', 'blank': 'True'}),
             'mother_pedigree': ('django.db.models.fields.URLField', [], {'max_length': '100', 'blank': 'True'}),
-            'mother_photo': ('django.db.models.fields.files.ImageField', [], {'max_length': '100', 'blank': 'True'})
+            'mother_photo': ('django.db.models.fields.files.ImageField', [], {'max_length': '100', 'blank': 'True'}),
+            'mother_titles': ('django.db.models.fields.CharField', [], {'max_length': '100', 'blank': 'True'}),
+            'mother_training': ('django.db.models.fields.CharField', [], {'max_length': '100', 'blank': 'True'})
         }
     }
 

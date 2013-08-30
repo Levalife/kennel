@@ -19,6 +19,8 @@ class Migration(SchemaMigration):
         db.create_table(u'dogs_dog', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=80, blank=True)),
+            ('mother', self.gf('django.db.models.fields.CharField')(max_length=80, blank=True)),
+            ('father', self.gf('django.db.models.fields.CharField')(max_length=80, blank=True)),
             ('breeder', self.gf('django.db.models.fields.CharField')(max_length=80, blank=True)),
             ('photo', self.gf('django.db.models.fields.files.ImageField')(max_length=100, blank=True)),
             ('sex', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['dogs.Gender'])),
@@ -30,7 +32,7 @@ class Migration(SchemaMigration):
             ('titles', self.gf('django.db.models.fields.TextField')(max_length=400, blank=True)),
             ('training', self.gf('django.db.models.fields.CharField')(max_length=80, blank=True)),
             ('about_dog', self.gf('django.db.models.fields.TextField')(max_length=400, blank=True)),
-            ('gallery', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['gallery.Album'])),
+            ('gallery', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['gallery.Album'], null=True, blank=True)),
         ))
         db.send_create_signal(u'dogs', ['Dog'])
 
@@ -50,10 +52,12 @@ class Migration(SchemaMigration):
             'birthday': ('django.db.models.fields.DateField', [], {}),
             'breeder': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}),
             'dm': ('django.db.models.fields.CharField', [], {'max_length': '40', 'blank': 'True'}),
-            'gallery': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['gallery.Album']"}),
+            'father': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}),
+            'gallery': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['gallery.Album']", 'null': 'True', 'blank': 'True'}),
             'hd': ('django.db.models.fields.CharField', [], {'max_length': '40', 'blank': 'True'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'mdr1': ('django.db.models.fields.CharField', [], {'max_length': '40', 'blank': 'True'}),
+            'mother': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}),
             'pedigree': ('django.db.models.fields.URLField', [], {'max_length': '150', 'blank': 'True'}),
             'photo': ('django.db.models.fields.files.ImageField', [], {'max_length': '100', 'blank': 'True'}),

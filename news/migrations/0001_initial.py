@@ -14,7 +14,7 @@ class Migration(SchemaMigration):
             ('title', self.gf('django.db.models.fields.CharField')(max_length=200)),
             ('photo', self.gf('django.db.models.fields.files.ImageField')(max_length=100)),
             ('body', self.gf('django.db.models.fields.CharField')(max_length=5000)),
-            ('pub_date', self.gf('django.db.models.fields.DateTimeField')(default=datetime.datetime(2013, 8, 12, 0, 0))),
+            ('pub_date', self.gf('django.db.models.fields.DateTimeField')(default=datetime.datetime(2013, 8, 30, 0, 0))),
             ('gallery', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['gallery.Album'], null=True, blank=True)),
         ))
         db.send_create_signal(u'news', ['News'])
@@ -30,7 +30,9 @@ class Migration(SchemaMigration):
             'Meta': {'object_name': 'Album'},
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'public': ('django.db.models.fields.BooleanField', [], {'default': 'True'}),
-            'title': ('django.db.models.fields.CharField', [], {'max_length': '60'})
+            'title': ('django.db.models.fields.CharField', [], {'max_length': '60'}),
+            'title_en': ('django.db.models.fields.CharField', [], {'max_length': '60', 'null': 'True', 'blank': 'True'}),
+            'title_ru': ('django.db.models.fields.CharField', [], {'max_length': '60', 'null': 'True', 'blank': 'True'})
         },
         u'news.news': {
             'Meta': {'object_name': 'News'},
@@ -38,7 +40,7 @@ class Migration(SchemaMigration):
             'gallery': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['gallery.Album']", 'null': 'True', 'blank': 'True'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'photo': ('django.db.models.fields.files.ImageField', [], {'max_length': '100'}),
-            'pub_date': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime(2013, 8, 12, 0, 0)'}),
+            'pub_date': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime(2013, 8, 30, 0, 0)'}),
             'title': ('django.db.models.fields.CharField', [], {'max_length': '200'})
         }
     }

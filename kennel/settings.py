@@ -57,7 +57,8 @@ LANGUAGES = (
     ('ru', ('Russian')),
 )
 
-
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'ru'
+MODELTRANSLATION_TRANSLATION_FILES = ('translation',)
 
 LOCALE_PATHS = (
 os.path.join(os.path.dirname(__file__),'../locale/'),
@@ -168,6 +169,8 @@ INSTALLED_APPS = (
     'offsprings',
     'contacts',
     'gallery',
+    'modeltranslation',
+    
 #    'gunicorn',
 )
 
