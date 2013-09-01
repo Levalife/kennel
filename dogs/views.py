@@ -8,12 +8,12 @@ def our_dogs(request):
 	return render(request, 'dogs/our_dogs.html')
 
 def males(request):
-	gender = Gender.objects.get(gender="Male")
+	gender = Gender.objects.get(gender_en="Male")
 	males = gender.dog_set.all()
 	return render(request, 'dogs/males.html', {'males': males})
 
 def females(request):
-	gender = Gender.objects.get(gender="Female")
+	gender = Gender.objects.get(gender_en="Female")
 	females = gender.dog_set.all()
 	return render(request, 'dogs/females.html', {'females': females})
 
