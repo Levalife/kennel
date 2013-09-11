@@ -21,6 +21,19 @@
 	<h4>{% trans "You can contact us and we'll surely answer you" %}!</h4>
 	<form method='POST' action=''>
 		{% csrf_token %}
+		<p>{{ form.title.label }}:
+			<input type="text" name="title"/></p>
+		<p>{{ form.name.label }}:
+			<input type="text" name="name"/></p>
+		<p>{{ form.mail.label }}:
+			<input type="text" name="mail"/></p>
+		<p>{{ form.text.label }}:
+			<input type="text" name="text"/></p>
+		<p>{{ form.captcha.label }}: {{ form.captcha}}
+		<input class='btn btn-inverse offset4'  type='submit' value='{% trans "Send" %}'>
+	</form>
+	<form method='POST' action=''>
+		{% csrf_token %}
 		<div class='form mystyle'>
 			{{ form }}
 		</div>
