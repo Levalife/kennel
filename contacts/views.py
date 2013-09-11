@@ -14,7 +14,7 @@ class ContactCreateView(CreateView):
 			name=form.cleaned_data.get('name').encode('utf-8'),
 			mail=form.cleaned_data.get('mail').encode('utf-8')
 		)
-		message += '\n\n{0}'.format(form.cleaned_data.get('text'.encode('utf-8')))
+		message += '\n\n{0}'.format(form.cleaned_data.get('text').encode('utf-8'))
 		send_mail(
 			subject=form.cleaned_data.get('title').encode('utf-8').strip(),
 			message=message,
